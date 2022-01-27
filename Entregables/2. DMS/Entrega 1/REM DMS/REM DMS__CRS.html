@@ -1,0 +1,1859 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="iso-8859-1" />
+<meta name="generatedBy" content="REMUS" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/stylesheets/remus.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/stylesheets/madeja.css" />
+<title>Proyecto REM DMS</title>
+<script>
+            // array for user warnings
+            var warnings = new Array();
+        </script>
+</head>
+<body>
+<div id="warning_container" class="ui-widget">
+<span id="warning_title">Avisos</span>
+<div id="warning_messages"></div>
+</div>
+<div id="document_cover">
+<div id="browser_info">
+<script>
+                document.write( navigator.userAgent );
+            </script>
+</div>
+<div id="project_name">Proyecto REM DMS</div>
+<div id="document_logo">
+<img alt="Universidad de Sevilla" src="https://cdn.jsdelivr.net/gh/amador-duran-toro/rem/assets/images/logo_us.gif" />
+</div>
+<div id="document_name">Documento de Requisitos del Sistema</div>
+<div id="document_version">Versión 1.0</div>
+<div id="document_date">Fecha 08/11/2021</div>
+<div id="document_prepared_for">Preparado para:<p>
+<a href="#ORG-0001">Salute Media</a>
+</p>
+</div>
+<div id="document_prepared_by">Preparado por:<p>
+<a href="#ORG-0002">Grupo GSI 1</a>
+</p>
+</div>
+</div>
+<div class="pagebreak"></div>
+<nav id="toc" role="navigation">
+<h1>Índice</h1>
+<ul class="toc_list toc_list_level_1">
+<li>1 <a href="#SEC-0001">Introducción</a></li>
+<li>2 <a href="#SEC-0002">Participantes en el proyecto</a></li>
+<ul class="toc_list">
+<li>2.1 <a href="#SEC-0010">Organizaciones</a></li>
+<li>2.2 <a href="#SEC-0011">Personas</a></li>
+</ul>
+<li>3 <a href="#SEC-0003">Descripción del sistema actual</a></li>
+<li>4 <a href="#SEC-0004">Objetivos del Sistema</a></li>
+<li>5 <a href="#SEC-0005">Catálogo de Requisitos del Sistema</a></li>
+<ul class="toc_list">
+<li>5.1 <a href="#SEC-0006">Requisitos de Información</a></li>
+<li>5.2 <a href="#SEC-0007">Casos de Uso</a></li>
+<li>5.3 <a href="#SEC-0009">Reglas de Negocio</a></li>
+<li>5.4 <a href="#SEC-0012">Actores</a></li>
+<li>5.5 <a href="#SEC-0013">Requisitos Funcionales</a></li>
+<li>5.6 <a href="#SEC-0014">Requisitos No Funcionales</a></li>
+<li>5.7 <a href="#SEC-0015">Requisitos de Interfaz</a></li>
+</ul>
+</ul>
+</nav>
+<div class="pagebreak"></div>
+<h1 id="SEC-0001" class="section">1 Introducción</h1>
+<div id="PRG-0001">
+<div id="PRG-0001-text-html" class=""><p>Este proyecto se realiza para la asignatura de Gestión de Sistemas de Información durante el curso académico 2021/2022. </p>
+<p>El proyecto consistirá en la realización de un sistema de gestión documental (o DMS) mediante la herramienta de Alfresco, para la empresa Salute Media, dedicada a la investigación de las enfermedades, y al desarrollo de las herramientas software necesarias para su tratamiento.</p></div>
+</div>
+<h1 id="SEC-0002" class="section">2 Participantes en el proyecto</h1>
+<h2 id="SEC-0010" class="section">2.1 Organizaciones</h2>
+<div id="ORG-0001">
+<table class="organization remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/organization.png" /> Organización</th>
+<th class="name_column" colspan="1">Salute Media</th>
+</tr>
+</thead>
+<tr>
+<th>Dirección</th>
+<td colspan="1">
+<div id="ORG-0001-address-html" class=""><p>Avenida de la Reina Mercedes S/N   </p></div>
+</td>
+</tr>
+<tr>
+<th>Teléfono</th>
+<td colspan="1">954623619</td>
+</tr>
+<tr>
+<th>Fax</th>
+<td colspan="1">954623619</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="ORG-0001-comments-html" class="remus_comments"><p>Representa a la empresa Salute Media</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="ORG-0002">
+<table class="organization remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/organization.png" /> Organización</th>
+<th class="name_column" colspan="1">Grupo GSI 1</th>
+</tr>
+</thead>
+<tr>
+<th>Dirección</th>
+<td colspan="1">
+<div id="ORG-0002-address-html" class=""><p>Avenida de la Reina Mercedes S/N   </p></div>
+</td>
+</tr>
+<tr>
+<th>Teléfono</th>
+<td colspan="1">954623619</td>
+</tr>
+<tr>
+<th>Fax</th>
+<td colspan="1">954623619</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="ORG-0002-comments-html" class="remus_comments"><p>Representa al grupo de trabajo de la asignatura</p></div>
+</td>
+</tr>
+</table>
+</div>
+<h2 id="SEC-0011" class="section">2.2 Personas</h2>
+<div id="STK-0001">
+<table class="stakeholder remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/stakeholder.png" /> Participante</th>
+<th class="name_column" colspan="1">Álvaro Chamorro Pascua</th>
+</tr>
+</thead>
+<tr>
+<th>Organización</th>
+<td>
+<a href="#ORG-0002">Grupo GSI 1</a>
+</td>
+</tr>
+<tr>
+<th>Rol</th>
+<td colspan="1">
+<span id="STK-0001-stakeholderRole-html" class="">Desarrollador                        (es desarrollador)                    </span>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="STK-0001-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="STK-0002">
+<table class="stakeholder remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/stakeholder.png" /> Participante</th>
+<th class="name_column" colspan="1">Alejandro Fernández Trigo</th>
+</tr>
+</thead>
+<tr>
+<th>Organización</th>
+<td>
+<a href="#ORG-0002">Grupo GSI 1</a>
+</td>
+</tr>
+<tr>
+<th>Rol</th>
+<td colspan="1">
+<span id="STK-0002-stakeholderRole-html" class="">Desarrollador                        (es desarrollador)                    </span>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="STK-0002-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="STK-0003">
+<table class="stakeholder remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/stakeholder.png" /> Participante</th>
+<th class="name_column" colspan="1">Elena Ayora García</th>
+</tr>
+</thead>
+<tr>
+<th>Organización</th>
+<td>
+<a href="#ORG-0002">Grupo GSI 1</a>
+</td>
+</tr>
+<tr>
+<th>Rol</th>
+<td colspan="1">
+<span id="STK-0003-stakeholderRole-html" class="">Desarrollador                        (es desarrollador)                    </span>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="STK-0003-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="STK-0004">
+<table class="stakeholder remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/stakeholder.png" /> Participante</th>
+<th class="name_column" colspan="1">Juan Diego Villalobos Quirós</th>
+</tr>
+</thead>
+<tr>
+<th>Organización</th>
+<td>
+<a href="#ORG-0002">Grupo GSI 1</a>
+</td>
+</tr>
+<tr>
+<th>Rol</th>
+<td colspan="1">
+<span id="STK-0004-stakeholderRole-html" class="">Desarrollador                        (es desarrollador)                    </span>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="STK-0004-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="STK-0005">
+<table class="stakeholder remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/stakeholder.png" /> Participante</th>
+<th class="name_column" colspan="1">Francisco de la Torre</th>
+</tr>
+</thead>
+<tr>
+<th>Organización</th>
+<td>
+<a href="#ORG-0001">Salute Media</a>
+</td>
+</tr>
+<tr>
+<th>Rol</th>
+<td colspan="1">
+<span id="STK-0005-stakeholderRole-html" class="">Administrador                        (es cliente, es usuario)                    </span>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="STK-0005-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="STK-0006">
+<table class="stakeholder remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/stakeholder.png" /> Participante</th>
+<th class="name_column" colspan="1">María Granada</th>
+</tr>
+</thead>
+<tr>
+<th>Organización</th>
+<td>
+<a href="#ORG-0001">Salute Media</a>
+</td>
+</tr>
+<tr>
+<th>Rol</th>
+<td colspan="1">
+<span id="STK-0006-stakeholderRole-html" class="">Jefe de Proyecto                        (es cliente, es usuario)                    </span>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="STK-0006-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="STK-0007">
+<table class="stakeholder remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/stakeholder.png" /> Participante</th>
+<th class="name_column" colspan="1">Javier Guzmán</th>
+</tr>
+</thead>
+<tr>
+<th>Organización</th>
+<td>
+<a href="#ORG-0001">Salute Media</a>
+</td>
+</tr>
+<tr>
+<th>Rol</th>
+<td colspan="1">
+<span id="STK-0007-stakeholderRole-html" class="">Jefe de Equipo                        (es cliente, es usuario)                    </span>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="STK-0007-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="STK-0008">
+<table class="stakeholder remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/stakeholder.png" /> Participante</th>
+<th class="name_column" colspan="1">Miguel Gudiel</th>
+</tr>
+</thead>
+<tr>
+<th>Organización</th>
+<td>
+<a href="#ORG-0001">Salute Media</a>
+</td>
+</tr>
+<tr>
+<th>Rol</th>
+<td colspan="1">
+<span id="STK-0008-stakeholderRole-html" class="">Director de Investigaciones                        (es cliente, es usuario)                    </span>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="STK-0008-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<h1 id="SEC-0003" class="section">3 Descripción del sistema actual</h1>
+<div id="PRG-0002">
+<div id="PRG-0002-text-html" class=""><p>El sistema actual es inexistente en tanto que la empresa requiere de un sistema de gestión documental del cual carece en este momento, y tan solo provee una serie de requisitos abajo detallados para la puesta en marcha de este.</p></div>
+</div>
+<h1 id="SEC-0004" class="section">4 Objetivos del Sistema</h1>
+<div id="OBJ-0001">
+<table class="objective remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/objective.png" /> OBJ-0001</th>
+<th class="name_column" colspan="1">Administración documental</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (09/11/2021)
+</td>
+</tr>
+<tr>
+<th>Autores</th>
+<td colspan="1">
+<ul class="stakeholders">
+<li>
+<a href="#STK-0002">Alejandro Fernández Trigo</a>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="1">
+<div id="OBJ-0001-description-html" class=""><p>El sistema deberá aumentar el rendimiento de la empresa en términos de costes y tiempos mediante la implementación de un sistema de gestión documental (o DMS), que permita la gestión interna de documentación relativa a la empresa.</p></div>
+</td>
+</tr>
+<tr>
+<th>Importancia</th>
+<td colspan="1">vital</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="OBJ-0001-comments-html" class="remus_comments"><p>Se emplearán las herramientas provistas por el software Alfresco</p></div>
+</td>
+</tr>
+</table>
+</div>
+<h1 id="SEC-0005" class="section">5 Catálogo de Requisitos del Sistema</h1>
+<h2 id="SEC-0006" class="section">5.1 Requisitos de Información</h2>
+<div id="IRQ-0001">
+<table class="information_requirement remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/informationRequirement.png" /> IRQ-0001</th>
+<th class="name_column" colspan="2">Detalles de proyectos</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="2">1.0 (09/11/2021)
+</td>
+</tr>
+<tr>
+<th>Autores</th>
+<td colspan="2">
+<ul class="stakeholders">
+<li>
+<a href="#STK-0001">Álvaro Chamorro Pascua</a>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="2">
+<div id="IRQ-0001-relevantConcept-html" class="relevant_concept"><p>El sistema deberá almacenar la información correspondiente a los proyectos en marcha de la organización. Deberá incluir los correspondientes metadatos asociados. En concreto:</p></div>
+</td>
+</tr>
+<tr>
+<th>Datos específicos</th>
+<td colspan="2">
+<ul class="specific_data">
+<li id="DAT-0002">
+<span id="DAT-0002-description-html" class="">Autor(es) del documento</span>
+</li>
+<li id="DAT-0003">
+<span id="DAT-0003-description-html" class="">Palabras clave</span>
+</li>
+<li id="DAT-0004">
+<span id="DAT-0004-description-html" class="">Descripción corta</span>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th>Importancia</th>
+<td colspan="2">vital</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="2">
+<div id="IRQ-0001-comments-html" class="remus_comments"><p>Referencia los documentos asociados a cada proyecto que ejecuta la organización. Los proyectos se organizan en directorios por años.</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="IRQ-0002">
+<table class="information_requirement remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/informationRequirement.png" /> IRQ-0002</th>
+<th class="name_column" colspan="2">Detalles de desarrollo</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="2">1.0 (09/11/2021)
+</td>
+</tr>
+<tr>
+<th>Autores</th>
+<td colspan="2">
+<ul class="stakeholders">
+<li>
+<a href="#STK-0001">Álvaro Chamorro Pascua</a>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="2">
+<div id="IRQ-0002-relevantConcept-html" class="relevant_concept"><p>El sistema deberá almacenar la información correspondiente a el estado de los equipos de desarrollo de la organización. En concreto:</p></div>
+</td>
+</tr>
+<tr>
+<th>Datos específicos</th>
+<td colspan="2">
+<ul class="specific_data">
+<li id="DAT-0006">
+<span id="DAT-0006-description-html" class="">Temas relacionados</span>
+</li>
+<li id="DAT-0009">
+<span id="DAT-0009-description-html" class="">Versión</span>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th>Importancia</th>
+<td colspan="2">vital</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="2">
+<div id="IRQ-0002-comments-html" class="remus_comments"><p>Referencia los documentos que gestiona el equipo de desarrollo durante la ejecución de un proyecto concreto.</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="IRQ-0003">
+<table class="information_requirement remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/informationRequirement.png" /> IRQ-0003</th>
+<th class="name_column" colspan="2">Detalles de investigaciones</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="2">1.0 (09/11/2021)
+</td>
+</tr>
+<tr>
+<th>Autores</th>
+<td colspan="2">
+<ul class="stakeholders">
+<li>
+<a href="#STK-0004">Juan Diego Villalobos Quirós</a>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="2">
+<div id="IRQ-0003-relevantConcept-html" class="relevant_concept"><p>El sistema deberá almacenar la información correspondiente a las investigaciones llevadas a cabo por el equipo de I+D. En concreto:</p></div>
+</td>
+</tr>
+<tr>
+<th>Datos específicos</th>
+<td colspan="2">
+<ul class="specific_data">
+<li id="DAT-0010">
+<span id="DAT-0010-description-html" class="">Autor(es) del documento</span>
+</li>
+<li id="DAT-0011">
+<span id="DAT-0011-description-html" class="">Palabras clave</span>
+</li>
+<li id="DAT-0012">
+<span id="DAT-0012-description-html" class="">Descripción corta</span>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th>Importancia</th>
+<td colspan="2">vital</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="2">
+<div id="IRQ-0003-comments-html" class="remus_comments"><p>Referencia los documentos asociados las investigaciones llevadas a cabo por el área de I+D de la organización. Las investigaciones se organizan en directorios por años.</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="IRQ-0004">
+<table class="information_requirement remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/informationRequirement.png" /> IRQ-0004</th>
+<th class="name_column" colspan="2">Detalles de empleados</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="2">1.0 (09/11/2021)
+</td>
+</tr>
+<tr>
+<th>Autores</th>
+<td colspan="2">
+<ul class="stakeholders">
+<li>
+<a href="#STK-0002">Alejandro Fernández Trigo</a>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="2">
+<div id="IRQ-0004-relevantConcept-html" class="relevant_concept"><p>El sistema deberá almacenar la información correspondiente a la información sobre los empleados de la organización. En concreto:</p></div>
+</td>
+</tr>
+<tr>
+<th>Datos específicos</th>
+<td colspan="2">
+<ul class="specific_data">
+<li id="DAT-0014">
+<span id="DAT-0014-description-html" class="">Experiencia laboral</span>
+</li>
+<li id="DAT-0015">
+<span id="DAT-0015-description-html" class="">Salario</span>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th>Importancia</th>
+<td colspan="2">vital</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="2">
+<div id="IRQ-0004-comments-html" class="remus_comments"><p>Referencia los documentos asociados los empleados de la organización.</p></div>
+</td>
+</tr>
+</table>
+</div>
+<h2 id="SEC-0007" class="section">5.2 Casos de Uso</h2>
+<div id="UC-0002">
+<table class="use_case remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/useCase.png" /> UC-0002</th>
+<th class="name_column" colspan="2">Creación de directorios </th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="2">1.0 (09/11/2021)
+</td>
+</tr>
+<tr>
+<th>Autores</th>
+<td colspan="2">
+<ul class="stakeholders">
+<li>
+<a href="#STK-0001">Álvaro Chamorro Pascua</a>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="2"><div id="UC-0002--html" class=""><p>El sistema deberá comportarse tal como se describe en el siguiente caso de uso cuando un usuario quiere crear una nueva carpeta dentro de un directorio en el que cuenta con permiso de escritura o durante la realización de los siguientes casos de uso: [UC-0006] Creación nuevo proyecto, [UC-0007] Registro nueva investigación. </p></div>
+</td>
+</tr>
+<tr>
+<th>Precondición</th>
+<td colspan="2">
+<div id="UC-0002-precondition-html" class=""><p>El usuario cuenta con permiso de escritura para el directorio dónde quiere operar.</p></div>
+</td>
+</tr>
+<tr>
+<th rowspan="4">Secuencia normal</th>
+<th class="step_number_column">Paso</th>
+<th class="step_action_column">Acción</th>
+</tr>
+<tr id="STP-0016">
+<th class="step_number">1</th>
+<td colspan="1">
+<div id="STP-0016--html" class=""><p>El sistema permite el acceso al usuario a un directorio sobre el cual posee permiso de escritura. </p></div>
+</td>
+</tr>
+<tr id="STP-0017">
+<th class="step_number">2</th>
+<td colspan="1">
+<div id="STP-0017--html" class=""><p>El sistema permite al usuario definir una nueva carpeta dentro del directorio actual.</p></div>
+</td>
+</tr>
+<tr id="STP-0018">
+<th class="step_number">3</th>
+<td colspan="1">
+<div id="STP-0018--html" class=""><p>El sistema genera un nuevo recurso accesible para los actores con permiso (al menos) de lectura.</p></div>
+</td>
+</tr>
+<tr>
+<th>Postcondición</th>
+<td colspan="2">
+<div id="UC-0002-postcondition-html" class=""><p>El nuevo contenido creado está a disposición de todos los usuarios con permiso (al menos de lectura) para ese directorio.</p></div>
+</td>
+</tr>
+<tr>
+<th>Importancia</th>
+<td colspan="2">importante</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="2">
+<div id="UC-0002-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="UC-0003">
+<table class="use_case remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/useCase.png" /> UC-0003</th>
+<th class="name_column" colspan="2">Creación de ficheros </th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="2">1.0 (09/11/2021)
+</td>
+</tr>
+<tr>
+<th>Autores</th>
+<td colspan="2">
+<ul class="stakeholders">
+<li>
+<a href="#STK-0001">Álvaro Chamorro Pascua</a>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="2"><div id="UC-0003--html" class=""><p>El sistema deberá comportarse tal como se describe en el siguiente caso de uso cuando cuando un usuario quiere crear un nuevo fichero dentro de un directorio en el que cuenta con permiso de escritura o durante la realización de los siguientes casos de uso: [UC-0005] Alta de nuevo empleado, [UC-0006] Creación nuevo proyecto. </p></div>
+</td>
+</tr>
+<tr>
+<th>Precondición</th>
+<td colspan="2">
+<div id="UC-0003-precondition-html" class=""><p>El usuario cuenta con permiso de escritura para el directorio dónde quiere operar.</p></div>
+</td>
+</tr>
+<tr>
+<th rowspan="4">Secuencia normal</th>
+<th class="step_number_column">Paso</th>
+<th class="step_action_column">Acción</th>
+</tr>
+<tr id="STP-0019">
+<th class="step_number">1</th>
+<td colspan="1">
+<div id="STP-0019--html" class=""><p>El sistema permite el acceso al usuario a un directorio sobre el cual posee permiso de escritura. </p></div>
+</td>
+</tr>
+<tr id="STP-0020">
+<th class="step_number">2</th>
+<td colspan="1">
+<div id="STP-0020--html" class=""><p>El sistema permite al usuario subir y/o editar los datos de un fichero dentro del directorio actual.</p></div>
+</td>
+</tr>
+<tr id="STP-0021">
+<th class="step_number">3</th>
+<td colspan="1">
+<div id="STP-0021--html" class=""><p>El sistema genera un nuevo recurso accesible para los actores con permiso (al menos) de lectura.</p></div>
+</td>
+</tr>
+<tr>
+<th>Postcondición</th>
+<td colspan="2">
+<div id="UC-0003-postcondition-html" class=""><p>El nuevo contenido creado está a disposición de todos los usuarios con permiso (al menos de lectura) para ese directorio.</p></div>
+</td>
+</tr>
+<tr>
+<th>Importancia</th>
+<td colspan="2">importante</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="2">
+<div id="UC-0003-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="UC-0004">
+<table class="use_case remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/useCase.png" /> UC-0004</th>
+<th class="name_column" colspan="2">Búsqueda de proyectos por metadatos </th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="2">1.0 (09/11/2021)
+</td>
+</tr>
+<tr>
+<th>Autores</th>
+<td colspan="2">
+<ul class="stakeholders">
+<li>
+<a href="#STK-0002">Alejandro Fernández Trigo</a>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="2"><div id="UC-0004--html" class=""><p>El sistema deberá comportarse tal como se describe en el siguiente caso de uso cuando el usuario quiere hacer una consulta al sistema que devuelva un proyecto. </p></div>
+</td>
+</tr>
+<tr>
+<th>Precondición</th>
+<td colspan="2">
+<div id="UC-0004-precondition-html" class=""><p>El sistema está listo para recibir peticiones de búsqueda.</p></div>
+</td>
+</tr>
+<tr>
+<th rowspan="4">Secuencia normal</th>
+<th class="step_number_column">Paso</th>
+<th class="step_action_column">Acción</th>
+</tr>
+<tr id="STP-0022">
+<th class="step_number">1</th>
+<td colspan="1">
+<div id="STP-0022--html" class=""><p>El sistema permite al usuario introducir un autor y/o palabra clave para ejecutar la búsqueda.</p></div>
+</td>
+</tr>
+<tr id="STP-0023">
+<th class="step_number">2</th>
+<td colspan="1">
+<div id="STP-0023--html" class=""><p>El actor     <a href="#ACT-0001">Administrador (ACT-0001)</a>     introduce los términos de la búsqueda, lanzando así una petición. </p></div>
+</td>
+</tr>
+<tr id="STP-0024">
+<th class="step_number">3</th>
+<td colspan="1">
+<div id="STP-0024--html" class=""><p>El sistema devuelve (de existir) los recursos solicitados por la peticición, para los cuales el usuario tiene, al menos, permiso de lectura.</p></div>
+</td>
+</tr>
+<tr>
+<th>Postcondición</th>
+<td colspan="2">
+<div id="UC-0004-postcondition-html" class=""><p>El recurso devuelto (de existir), está disponible para el usuario (este tiene, al menos, permiso de lectura) asociado. </p></div>
+</td>
+</tr>
+<tr>
+<th>Importancia</th>
+<td colspan="2">importante</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="2">
+<div id="UC-0004-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="UC-0008">
+<table class="use_case remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/useCase.png" /> UC-0008</th>
+<th class="name_column" colspan="2">Búsqueda de empleados por metadatos </th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="2">1.0 (12/11/2021)
+</td>
+</tr>
+<tr>
+<th>Autores</th>
+<td colspan="2">
+<ul class="stakeholders">
+<li>
+<a href="#STK-0002">Alejandro Fernández Trigo</a>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="2"><div id="UC-0008--html" class=""><p>El sistema deberá comportarse tal como se describe en el siguiente caso de uso cuando el usuario quiere hacer una consulta al sistema que devuelva un empleado. </p></div>
+</td>
+</tr>
+<tr>
+<th>Precondición</th>
+<td colspan="2">
+<div id="UC-0008-precondition-html" class=""><p>El sistema está listo para recibir peticiones de búsqueda.</p></div>
+</td>
+</tr>
+<tr>
+<th rowspan="4">Secuencia normal</th>
+<th class="step_number_column">Paso</th>
+<th class="step_action_column">Acción</th>
+</tr>
+<tr id="STP-0037">
+<th class="step_number">1</th>
+<td colspan="1">
+<div id="STP-0037--html" class=""><p>El sistema permite al usuario introducir los términos para ejecutar la búsqueda.</p></div>
+</td>
+</tr>
+<tr id="STP-0038">
+<th class="step_number">2</th>
+<td colspan="1">
+<div id="STP-0038--html" class=""><p>El actor     <a href="#ACT-0001">Administrador (ACT-0001)</a>     introduce los términos de la búsqueda, lanzando así una petición. </p></div>
+</td>
+</tr>
+<tr id="STP-0039">
+<th class="step_number">3</th>
+<td colspan="1">
+<div id="STP-0039--html" class=""><p>El sistema devuelve (de existir) los recursos solicitados por la peticición, para los cuales el usuario tiene, al menos, permiso de lectura.</p></div>
+</td>
+</tr>
+<tr>
+<th>Postcondición</th>
+<td colspan="2">
+<div id="UC-0008-postcondition-html" class=""><p>El recurso devuelto (de existir), está disponible para el usuario (este tiene, al menos, permiso de lectura) asociado. </p></div>
+</td>
+</tr>
+<tr>
+<th>Importancia</th>
+<td colspan="2">importante</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="2">
+<div id="UC-0008-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="UC-0009">
+<table class="use_case remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/useCase.png" /> UC-0009</th>
+<th class="name_column" colspan="2">Búsqueda de investigaciones por metadatos </th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="2">1.0 (12/11/2021)
+</td>
+</tr>
+<tr>
+<th>Autores</th>
+<td colspan="2">
+<ul class="stakeholders">
+<li>
+<a href="#STK-0002">Alejandro Fernández Trigo</a>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="2"><div id="UC-0009--html" class=""><p>El sistema deberá comportarse tal como se describe en el siguiente caso de uso cuando el usuario quiere hacer una consulta al sistema que devuelva una investigación. </p></div>
+</td>
+</tr>
+<tr>
+<th>Precondición</th>
+<td colspan="2">
+<div id="UC-0009-precondition-html" class=""><p>El sistema está listo para recibir peticiones de búsqueda.</p></div>
+</td>
+</tr>
+<tr>
+<th rowspan="4">Secuencia normal</th>
+<th class="step_number_column">Paso</th>
+<th class="step_action_column">Acción</th>
+</tr>
+<tr id="STP-0040">
+<th class="step_number">1</th>
+<td colspan="1">
+<div id="STP-0040--html" class=""><p>El sistema permite al usuario introducir un autor y/o palabras clave para ejecutar la búsqueda.</p></div>
+</td>
+</tr>
+<tr id="STP-0041">
+<th class="step_number">2</th>
+<td colspan="1">
+<div id="STP-0041--html" class=""><p>El actor     <a href="#ACT-0001">Administrador (ACT-0001)</a>     introduce los términos de la búsqueda, lanzando así una petición. </p></div>
+</td>
+</tr>
+<tr id="STP-0042">
+<th class="step_number">3</th>
+<td colspan="1">
+<div id="STP-0042--html" class=""><p>El sistema devuelve (de existir) los recursos solicitados por la peticición, para los cuales el usuario tiene, al menos, permiso de lectura.</p></div>
+</td>
+</tr>
+<tr>
+<th>Postcondición</th>
+<td colspan="2">
+<div id="UC-0009-postcondition-html" class=""><p>El recurso devuelto (de existir), está disponible para el usuario (este tiene, al menos, permiso de lectura) asociado. </p></div>
+</td>
+</tr>
+<tr>
+<th>Importancia</th>
+<td colspan="2">importante</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="2">
+<div id="UC-0009-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="UC-0005">
+<table class="use_case remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/useCase.png" /> UC-0005</th>
+<th class="name_column" colspan="2">Alta de nuevo empleado </th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="2">1.0 (10/11/2021)
+</td>
+</tr>
+<tr>
+<th>Autores</th>
+<td colspan="2">
+<ul class="stakeholders">
+<li>
+<a href="#STK-0002">Alejandro Fernández Trigo</a>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="2"><div id="UC-0005--html" class=""><p>El sistema deberá comportarse tal como se describe en el siguiente caso de uso cuando el administrador quiera dar de alta un nuevo empleado en la organización. </p></div>
+</td>
+</tr>
+<tr>
+<th>Precondición</th>
+<td colspan="2">
+<div id="UC-0005-precondition-html" class=""><p>Un nuevo empleado ha de ser registrado en el sistema por la administración.</p></div>
+</td>
+</tr>
+<tr>
+<th rowspan="4">Secuencia normal</th>
+<th class="step_number_column">Paso</th>
+<th class="step_action_column">Acción</th>
+</tr>
+<tr id="STP-0025">
+<th class="step_number">1</th>
+<td colspan="1">
+<div id="STP-0025--html" class=""><p>El actor     <a href="#ACT-0001">Administrador (ACT-0001)</a>     introduce los detalles del nuevo empleado en el sistema.</p></div>
+</td>
+</tr>
+<tr id="STP-0036">
+<th class="step_number">2</th>
+<td colspan="1">
+<div id="STP-0036--html" class=""><p>Se realiza el caso de uso     <a href="#UC-0003">Creación de ficheros (UC-0003)</a></p></div>
+</td>
+</tr>
+<tr id="STP-0026">
+<th class="step_number">3</th>
+<td colspan="1">
+<div id="STP-0026--html" class=""><p>El sistema registra los datos, quedado estos a disposición de los actores con permiso de (al menos) lectura.</p></div>
+</td>
+</tr>
+<tr>
+<th>Postcondición</th>
+<td colspan="2">
+<div id="UC-0005-postcondition-html" class=""><p>Los detalles del empleado quedan registrados en el directorio de "Empleados".</p></div>
+</td>
+</tr>
+<tr>
+<th>Importancia</th>
+<td colspan="2">importante</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="2">
+<div id="UC-0005-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="UC-0006">
+<table class="use_case remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/useCase.png" /> UC-0006</th>
+<th class="name_column" colspan="2">Creación nuevo proyecto </th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="2">1.0 (10/11/2021)
+</td>
+</tr>
+<tr>
+<th>Autores</th>
+<td colspan="2">
+<ul class="stakeholders">
+<li>
+<a href="#STK-0002">Alejandro Fernández Trigo</a>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="2"><div id="UC-0006--html" class=""><p>El sistema deberá comportarse tal como se describe en el siguiente caso de uso cuando se inicia un nuevo proyecto por parte de la organización. </p></div>
+</td>
+</tr>
+<tr>
+<th>Precondición</th>
+<td colspan="2">
+<div id="UC-0006-precondition-html" class=""><p>Hay un nuevo proyecto que va a dar comienzo y es necesario registrar los detalles.</p></div>
+</td>
+</tr>
+<tr>
+<th rowspan="6">Secuencia normal</th>
+<th class="step_number_column">Paso</th>
+<th class="step_action_column">Acción</th>
+</tr>
+<tr id="STP-0027">
+<th class="step_number">1</th>
+<td colspan="1">
+<div id="STP-0027--html" class=""><p>El actor     <a href="#ACT-0001">Administrador (ACT-0001)</a>     registra el nuevo proyecto que va a iniciarse.</p></div>
+</td>
+</tr>
+<tr id="STP-0034">
+<th class="step_number">2</th>
+<td colspan="1">
+<div id="STP-0034--html" class=""><p>Se realiza el caso de uso     <a href="#UC-0002">Creación de directorios (UC-0002)</a></p></div>
+</td>
+</tr>
+<tr id="STP-0028">
+<th class="step_number">3</th>
+<td colspan="1">
+<div id="STP-0028--html" class=""><p>El actor     <a href="#ACT-0002">Jefe de Proyecto (ACT-0002)</a>     introduce los detalles del nuevo proyecto.</p></div>
+</td>
+</tr>
+<tr id="STP-0035">
+<th class="step_number">4</th>
+<td colspan="1">
+<div id="STP-0035--html" class=""><p>Se realiza el caso de uso     <a href="#UC-0003">Creación de ficheros (UC-0003)</a></p></div>
+</td>
+</tr>
+<tr id="STP-0029">
+<th class="step_number">5</th>
+<td colspan="1">
+<div id="STP-0029--html" class=""><p>El sistema registra los datos, quedado estos a disposición de los actores con permiso de (al menos) lectura.   </p></div>
+</td>
+</tr>
+<tr>
+<th>Postcondición</th>
+<td colspan="2">
+<div id="UC-0006-postcondition-html" class=""><p>Los detalles relacionados con el proyecto en cuestión quedan a disposición de los actores con permiso de (al menos) lectura.</p></div>
+</td>
+</tr>
+<tr>
+<th>Importancia</th>
+<td colspan="2">importante</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="2">
+<div id="UC-0006-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="UC-0007">
+<table class="use_case remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/useCase.png" /> UC-0007</th>
+<th class="name_column" colspan="2">Registro nueva investigación </th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="2">1.0 (10/11/2021)
+</td>
+</tr>
+<tr>
+<th>Autores</th>
+<td colspan="2">
+<ul class="stakeholders">
+<li>
+<a href="#STK-0003">Elena Ayora García</a>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="2"><div id="UC-0007--html" class=""><p>El sistema deberá comportarse tal como se describe en el siguiente caso de uso cuando se inicia una nueva investigación por parte del departamento de I+D de la organización. </p></div>
+</td>
+</tr>
+<tr>
+<th>Precondición</th>
+<td colspan="2">
+<div id="UC-0007-precondition-html" class=""><p>Hay una nueva investigación que va dar comienzo y es necesario registrar los detalles.</p></div>
+</td>
+</tr>
+<tr>
+<th rowspan="4">Secuencia normal</th>
+<th class="step_number_column">Paso</th>
+<th class="step_action_column">Acción</th>
+</tr>
+<tr id="STP-0030">
+<th class="step_number">1</th>
+<td colspan="1">
+<div id="STP-0030--html" class=""><p>El actor     <a href="#ACT-0004">Director de Investigaciones (ACT-0004)</a>     registra la nueva investigación que va a iniciarse.</p></div>
+</td>
+</tr>
+<tr id="STP-0031">
+<th class="step_number">2</th>
+<td colspan="1">
+<div id="STP-0031--html" class=""><p>Se realiza el caso de uso     <a href="#UC-0002">Creación de directorios (UC-0002)</a></p></div>
+</td>
+</tr>
+<tr id="STP-0033">
+<th class="step_number">3</th>
+<td colspan="1">
+<div id="STP-0033--html" class=""><p>El sistema registra los datos, quedado estos a disposición de los actores con permiso de (al menos) lectura.    </p></div>
+</td>
+</tr>
+<tr>
+<th>Postcondición</th>
+<td colspan="2">
+<div id="UC-0007-postcondition-html" class=""><p>Los detalles relacionados con la investigación en cuestión quedan a disposición de los actores con permiso de (al menos) lectura.</p></div>
+</td>
+</tr>
+<tr>
+<th>Importancia</th>
+<td colspan="2">importante</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="2">
+<div id="UC-0007-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<h2 id="SEC-0009" class="section">5.3 Reglas de Negocio</h2>
+<div id="CRQ-0001">
+<table class="constraint_requirement remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/constraintRequirement.png" /> CRQ-0001</th>
+<th class="name_column" colspan="1">Permisos para administración</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (09/11/2021)
+</td>
+</tr>
+<tr>
+<th>Autores</th>
+<td colspan="1">
+<ul class="stakeholders">
+<li>
+<a href="#STK-0003">Elena Ayora García</a>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="1">
+<div id="CRQ-0001-description-html" class=""><p>El sistema deberá respetar la siguiente regla de negocio o restricción: el usuario correspondiene al Administrador, referente a la jefatura de la empresa, debe tener acceso al sistema documental al completo. Debe poder crear, editar y eliminar contenidos.</p></div>
+</td>
+</tr>
+<tr>
+<th>Importancia</th>
+<td colspan="1">vital</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="CRQ-0001-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="CRQ-0002">
+<table class="constraint_requirement remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/constraintRequirement.png" /> CRQ-0002</th>
+<th class="name_column" colspan="1">Permisos para la jefatura de proyectos</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (09/11/2021)
+</td>
+</tr>
+<tr>
+<th>Autores</th>
+<td colspan="1">
+<ul class="stakeholders">
+<li>
+<a href="#STK-0003">Elena Ayora García</a>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="1">
+<div id="CRQ-0002-description-html" class=""><p>El sistema deberá respetar la siguiente regla de negocio o restricción: el usuario correspondiente al Jefe de Proyecto deberá tener acceso de lectura y escritura a los directorios de "Proyectos". Deberá poder crear carpetas y/o archivos dentro de los directorios sobre los que tiene permiso de escritura.</p></div>
+</td>
+</tr>
+<tr>
+<th>Importancia</th>
+<td colspan="1">vital</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="CRQ-0002-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="CRQ-0003">
+<table class="constraint_requirement remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/constraintRequirement.png" /> CRQ-0003</th>
+<th class="name_column" colspan="1">Permisos para jefatura de equipo</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (09/11/2021)
+</td>
+</tr>
+<tr>
+<th>Autores</th>
+<td colspan="1">
+<ul class="stakeholders">
+<li>
+<a href="#STK-0003">Elena Ayora García</a>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="1">
+<div id="CRQ-0003-description-html" class=""><p>El sistema deberá respetar la siguiente regla de negocio o restricción: el usuario correspondiente al Jefe de Equipo deberá tener acceso de lectura al directorio de "Proyectos" y "Empleados". Deberá tener acceso de lectura y escritura al directorio de "Desarrollo". Deberá poder crear carpetas dentro de los directorios sobre los que tiene permiso de escritura.</p></div>
+</td>
+</tr>
+<tr>
+<th>Importancia</th>
+<td colspan="1">vital</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="CRQ-0003-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="CRQ-0004">
+<table class="constraint_requirement remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/constraintRequirement.png" /> CRQ-0004</th>
+<th class="name_column" colspan="1">Permisos para dirección de investigación</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (09/11/2021)
+</td>
+</tr>
+<tr>
+<th>Autores</th>
+<td colspan="1">
+<ul class="stakeholders">
+<li>
+<a href="#STK-0003">Elena Ayora García</a>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="1">
+<div id="CRQ-0004-description-html" class=""><p>El sistema deberá respetar la siguiente regla de negocio o restricción: el usuario correspondiente al Director de Investigaciones deberá tener acceso de lectura y escritura al directorio de "Investigaciones". Deberá poder crear carpetas y/o archivos dentro de los directorios sobre los que tiene permiso de escritura.</p></div>
+</td>
+</tr>
+<tr>
+<th>Importancia</th>
+<td colspan="1">vital</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="CRQ-0004-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<h2 id="SEC-0012" class="section">5.4 Actores</h2>
+<div id="ACT-0001">
+<table class="actor remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/actor.png" /> ACT-0001</th>
+<th class="name_column" colspan="1">Administrador</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (09/11/2021)
+</td>
+</tr>
+<tr>
+<th>Autores</th>
+<td colspan="1">
+<ul class="stakeholders">
+<li>
+<a href="#STK-0002">Alejandro Fernández Trigo</a>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="1">
+<div id="ACT-0001-actorRole-html" class=""><p>Este actor representa a la figura de administración de la empresa. Se encarga de la administración final del sistema DMS en su totalidad. Referente a la jefatura de la empresa.</p></div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="ACT-0001-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="ACT-0002">
+<table class="actor remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/actor.png" /> ACT-0002</th>
+<th class="name_column" colspan="1">Jefe de Proyecto</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (09/11/2021)
+</td>
+</tr>
+<tr>
+<th>Autores</th>
+<td colspan="1">
+<ul class="stakeholders">
+<li>
+<a href="#STK-0002">Alejandro Fernández Trigo</a>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="1">
+<div id="ACT-0002-actorRole-html" class=""><p>Este actor representa al director de proyectos de la empresa.</p></div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="ACT-0002-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="ACT-0003">
+<table class="actor remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/actor.png" /> ACT-0003</th>
+<th class="name_column" colspan="1">Jefe de Equipo</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (09/11/2021)
+</td>
+</tr>
+<tr>
+<th>Autores</th>
+<td colspan="1">
+<ul class="stakeholders">
+<li>
+<a href="#STK-0002">Alejandro Fernández Trigo</a>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="1">
+<div id="ACT-0003-actorRole-html" class=""><p>Este actor representa al jefe del equipo de desarrolladores.</p></div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="ACT-0003-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="ACT-0004">
+<table class="actor remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/actor.png" /> ACT-0004</th>
+<th class="name_column" colspan="1">Director de Investigaciones</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (09/11/2021)
+</td>
+</tr>
+<tr>
+<th>Autores</th>
+<td colspan="1">
+<ul class="stakeholders">
+<li>
+<a href="#STK-0002">Alejandro Fernández Trigo</a>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="1">
+<div id="ACT-0004-actorRole-html" class=""><p>Este actor representa al jefe del área de investigación y desarrollo de la empresa.</p></div>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="ACT-0004-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<h2 id="SEC-0013" class="section">5.5 Requisitos Funcionales</h2>
+<div id="FRQ-0001">
+<table class="functional_requirement remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/functionalRequirement.png" /> FRQ-0001</th>
+<th class="name_column" colspan="1">Búsqueda</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (10/11/2021)
+</td>
+</tr>
+<tr>
+<th>Autores</th>
+<td colspan="1">
+<ul class="stakeholders">
+<li>
+<a href="#STK-0002">Alejandro Fernández Trigo</a>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="1">
+<div id="FRQ-0001-description-html" class=""><p>El sistema deberá permitir la búsqueda de documentos para los usuarios dentro de aquellos directorios sobre los que tienen acceso (al menos de lectura), empleando para ello términos o metadatos.</p></div>
+</td>
+</tr>
+<tr>
+<th>Importancia</th>
+<td colspan="1">vital</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="FRQ-0001-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="FRQ-0002">
+<table class="functional_requirement remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/functionalRequirement.png" /> FRQ-0002</th>
+<th class="name_column" colspan="1">Creación, edición, eliminación</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (11/11/2021)
+</td>
+</tr>
+<tr>
+<th>Autores</th>
+<td colspan="1">
+<ul class="stakeholders">
+<li>
+<a href="#STK-0004">Juan Diego Villalobos Quirós</a>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="1">
+<div id="FRQ-0002-description-html" class=""><p>El sistema deberá permitir a los usuarios editar los directorios sobre los que tienen permiso de escritura, creando, editando y/o eliminando contenidos.</p></div>
+</td>
+</tr>
+<tr>
+<th>Importancia</th>
+<td colspan="1">vital</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="FRQ-0002-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<h2 id="SEC-0014" class="section">5.6 Requisitos No Funcionales</h2>
+<div id="NFR-0002">
+<table class="nonfunctional_requirement remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/nonFunctionalRequirement.png" /> NFR-0002</th>
+<th class="name_column" colspan="1">Software</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (10/11/2021)
+</td>
+</tr>
+<tr>
+<th>Autores</th>
+<td colspan="1">
+<ul class="stakeholders">
+<li>
+<a href="#STK-0002">Alejandro Fernández Trigo</a>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="1">
+<div id="NFR-0002-description-html" class=""><p>El sistema deberá ejecutarse sobre una versión del software Alfresco superior o igual a la 7.0 en su rama "Community".</p></div>
+</td>
+</tr>
+<tr>
+<th>Importancia</th>
+<td colspan="1">vital</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="NFR-0002-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="NFR-0003">
+<table class="nonfunctional_requirement remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/nonFunctionalRequirement.png" /> NFR-0003</th>
+<th class="name_column" colspan="1">Sencillez</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (10/11/2021)
+</td>
+</tr>
+<tr>
+<th>Autores</th>
+<td colspan="1">
+<ul class="stakeholders">
+<li>
+<a href="#STK-0004">Juan Diego Villalobos Quirós</a>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="1">
+<div id="NFR-0003-description-html" class=""><p>El sistema deberá buscar la sencillez de uso, evitando nomenclaturas y/o estructuras muy complejas que reduzcan la usabilidad.</p></div>
+</td>
+</tr>
+<tr>
+<th>Importancia</th>
+<td colspan="1">importante</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="NFR-0003-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<h2 id="SEC-0015" class="section">5.7 Requisitos de Interfaz</h2>
+<div id="NFR-0001">
+<table class="nonfunctional_requirement remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/nonFunctionalRequirement.png" /> NFR-0001</th>
+<th class="name_column" colspan="1">Interfaz de Usuario</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (10/11/2021)
+</td>
+</tr>
+<tr>
+<th>Autores</th>
+<td colspan="1">
+<ul class="stakeholders">
+<li>
+<a href="#STK-0003">Elena Ayora García</a>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="1">
+<div id="NFR-0001-description-html" class=""><p>El sistema deberá emplear una interfaz de usuario lo más limpia y clara posible, evitando la sobrecarga de elementos visuales y los temas oscuros que dificulten la lectura.</p></div>
+</td>
+</tr>
+<tr>
+<th>Importancia</th>
+<td colspan="1">importante</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<div id="NFR-0001-comments-html" class="remus_comments"><p>Ninguno</p></div>
+</td>
+</tr>
+</table>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script>
+            // set tooltips of rem:ref references to glossary items or class supertypes
+            $( ".rem_ref" ).each( function () {
+                var sharp_position = this.href.lastIndexOf("#");
+                var id_glossary_item = this.href.substring( sharp_position + 1 ) + "-text-html";
+                var id_supertype = this.href.substring( sharp_position + 1 ) + "-description-html";
+
+                // some rem:refs to use cases do not have -text-html elements
+                if ( document.getElementById( id_glossary_item ) )
+                    this.title = document.getElementById( id_glossary_item ).innerText;
+
+                else if ( document.getElementById( id_supertype ) )
+                    this.title = document.getElementById( id_supertype ).innerText;
+            });
+
+            // set tooltips of rem:tbd elements
+            $( ".tbd" ).each( function () {
+                this.title = 'Por determinar';
+            });
+
+            // show warnings (if any)
+            if ( warnings.length ) {
+                var warning_list = $("<ul></ul>");
+                for ( var i = 0; i < warnings.length; i++ ) {
+                    var warning = warnings[ i ];
+                    var warning_link = $('<a href="#' + warning.oid + '">' + warning.oid + '</a>' );
+                    var warning_message = ": " + warning.message;
+                    var warning_item = $("<li></li>").append(warning_link, warning_message);
+
+                    warning_list.append( warning_item );
+                }
+                $("#warning_messages").append( warning_list );
+                $("#warning_container").show();
+            }
+
+            // manage traceability matrices buttons
+            function update_font_size( parent_table, size )
+            {
+                var matrix_columns = parent_table.find( "th.matrix_column" );
+                var font_size = parseInt( matrix_columns.eq(0).css( "font-size" ), 10 );
+
+                matrix_columns.css( "font-size", font_size + size );
+            }
+
+            $( "button.reduce_font" ).click( function() {
+                var parent_table = $(this).parents( "table.traceability_matrix" );
+                update_font_size( parent_table, -1 );
+            });
+
+            $( "button.increase_font" ).click( function() {
+                var parent_table = $(this).parents( "table.traceability_matrix" );
+                update_font_size( parent_table, 1 );
+            });
+        </script>
+<script src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/javascripts/ie7-shim-min-width.js"></script>
+<script>
+            fixMinWidthForIE();
+        </script>
+</body>
+</html>

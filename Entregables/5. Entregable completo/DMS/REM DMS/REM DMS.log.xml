@@ -1,0 +1,5396 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<rem:log xmlns:rem="http://rem.lsi.us.es">
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento creado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento creado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento creado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento creado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Version] actualizada [1.0 2021/11/09] -> [1.0 2021/11/08]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>ORG-0001</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadida organización cliente [ORG-0001] Salute Media]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>SEC-0005</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>SEC-0007</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0005</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº2 ([SEC-0007] Requisitos de Interfaz de Usuario y Funcionales)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0002</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº1 ([SEC-0010] Organizaciones)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>SEC-0006</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0005</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº1 ([SEC-0006] Requisitos de Información)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0005</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº3 ([SEC-0008] Requisitos no Funcionales)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>SEC-0009</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0005</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº4 ([SEC-0009] Reglas de Negocio)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0002</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº2 ([SEC-0011] Personas)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0001</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado hijo nº1 ([ORG-0001] Salute Media)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>PRG-0001</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>PRG-0002</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0003</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº1 ([PRG-0002] Descripción del sistema actual)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0010</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº2 ([ORG-0002] Grupo GSI 1)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>PRG-0001</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Text] actualizada [] -> [Este proyecto se realiza para la asignatura de Gestión de Sistemas de Información durante el curso académico 2021/2022. 
+
+El proyecto consistirá en la realización de un sistema de gestión documental (o DMS) mediante la herramienta de Alfresco, para la empresa Salute Media, dedicada a la investigación de las enfermedades, y al desarrollo de las herramientas software necesarias para su tratamiento.
+
+]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>SEC-0002</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>SEC-0011</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadida organización desarrolladora [ORG-0002] Grupo GSI 1]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>SEC-0010</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>ORG-0001</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Address] actualizada [PD] -> [Avenida de la Reina Mercedes S/N
+]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>SEC-0003</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0010</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº1 ([ORG-0001] Salute Media)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>ORG-0001</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Telephone] actualizada [PD] -> [Avenida de la Reina Mercedes S/N]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>ORG-0001</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Fax] actualizada [PD] -> [Avenida de la Reina Mercedes S/N]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>ORG-0001</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Comments] actualizada [Ninguno] -> [Representa la empresa]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>ORG-0002</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0001</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº1 ([PRG-0001] Introducción)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0001</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº1 ([ORG-0001] Salute Media)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>SEC-0001</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>SEC-0004</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>CRQ-0003</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>CRQ-0002</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Name] actualizada [Permisos para Gestión] -> [Permisos para la jefatura de proyectos]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0009</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº3 ([CRQ-0003] Permisos para Desarrolladores)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>ACT-0003</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0012</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº3 ([ACT-0003] Desarrolladores Internos)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>CRQ-0002</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>CRQ-0002</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido autor [STK-0001] Álvaro Chamorro Pascua]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>CRQ-0001</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0012</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº2 ([ACT-0002] Jefe de Proyecto)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [ACT-0002] Gestores con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0012</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº6 ([ACT-0006] Desarrolladores)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0012</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº4 ([ACT-0004] Director de Investigaciones)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>SEC-0012</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0009</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº1 ([CRQ-0001] Permisos para Administración)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0009</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº2 ([CRQ-0002] Permisos para Gestión)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [ACT-0003]  con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0012</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado hijo nº3 ([ACT-0003] Desarrolladores Internos)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>ACT-0001</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Description] actualizada [PD] -> [a la figura de administración de la empresa. Se encarga de la administración final del sistema DMS]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0012</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado hijo nº2 ([ACT-0002] Gestores)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>ACT-0001</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Description] actualizada [a la figura de administración de la empresa. Se encarga de la administración final del sistema DMS] -> [a la figura de administración de la empresa. Se encarga de la administración final del sistema DMS en su totalidad. Referente a la jefatura de la empresa]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>ACT-0002</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0012</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº3 ([ACT-0003] Jefe de Equipo)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>ACT-0004</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [ACT-0003] Desarrolladores Internos con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0005</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº4 ([SEC-0012] Actores)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0012</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº5 ([ACT-0005] Ingeniero de Calidad)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>ACT-0004</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido autor [STK-0002] Alejandro Fernández Trigo]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>ACT-0001</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0012</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº1 ([ACT-0001] Administrador)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>ACT-0001</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido autor [STK-0002] Alejandro Fernández Trigo]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0012</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº2 ([ACT-0002] Gestores)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>ACT-0003</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido autor [STK-0002] Alejandro Fernández Trigo]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>ORG-0001</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Telephone] actualizada [Avenida de la Reina Mercedes S/N] -> [954623619]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>ORG-0001</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Comments] actualizada [Representa la empresa] -> [Representa a la empresa Salute Media]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>STK-0003</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Organization] actualizada [] -> [[ORG-0002] Grupo GSI 1]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0011</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº5 ([STK-0005] Cliente)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>OBJ-0001</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>ORG-0002</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Address] actualizada [PD] -> [Avenida de la Reina Mercedes S/N
+]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>STK-0001</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>STK-0004</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>STK-0004</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Organization] actualizada [] -> [[ORG-0002] Grupo GSI 1]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0004</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº1 ([OBJ-0001] Administración documental)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>OBJ-0001</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Description] actualizada [aumentar el rendimiento de la empresa en términos de costes y tiempos mediante la implementación de un sistema de gestión documental (o DMS), que permita la gestión interna de documentación relativa a la empresa, empleando las herramientas provistas por el software Alfresco] -> [aumentar el rendimiento de la empresa en términos de costes y tiempos mediante la implementación de un sistema de gestión documental (o DMS), que permita la gestión interna de documentación relativa a la empresa]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0009</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado hijo nº1 ([SEC-0008] Actores)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [SEC-0008] Actores con 0 hijos y 2 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [SEC-0012]  con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>OBJ-0001</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Comments] actualizada [Ninguno] -> [Se emplearán las herramientas provistas por el software Alfresco]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0009</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº1 ([SEC-0008] Actores)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>ORG-0002</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Comments] actualizada [Ninguno] -> [Representa al grupo de trabajo de la asignatura]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0011</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº1 ([STK-0001] Álvaro Chamorro Pascua)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0009</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº1 ([SEC-0008] Actores)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0009</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado hijo nº1 ([SEC-0008] Actores)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0011</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº3 ([STK-0003] Elena Ayora García)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>STK-0002</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0011</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº4 ([STK-0004] Juan Diego Villalobos Quirós)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>ORG-0002</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Telephone] actualizada [PD] -> [954623619]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>ORG-0001</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Fax] actualizada [Avenida de la Reina Mercedes S/N] -> [954623619]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>STK-0003</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0007</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Name] actualizada [Requisitos de Interfaz de Usuario y Funcionales] -> [Casos de Uso]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>ORG-0002</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Fax] actualizada [PD] -> [954623619]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0011</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº2 ([STK-0002] Alejandro Fernández Trigo)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>PRG-0002</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Text] actualizada [] -> [El sistema actual es inexistente en tanto que la empresa requiere de un sistema de gestión documental del cual carece en este momento, y tan solo provee una serie de requisitos abajo detallados para la puesta en marcha de este.
+
+]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0005</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado hijo nº3 ([SEC-0008] Actores)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0011</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº5 ([STK-0005] Francisco de la Torre)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [CRQ-0007]  con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>CRQ-0004</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Description] actualizada [PD] -> [el usuario correspondiente al "Director de Investigaciones" deberá tener acceso de lectura al directorio de "Requisitos de producto". Además, deberá tener acceso de lectura y escritura sobre los directorios de "Investigación", "Clientes", "Análisis" y "Prototipos"]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0009</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº6 ([CRQ-0006] Permisos para el equipo de desarrollo)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>CRQ-0003</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Description] actualizada [el usuario correspondiente al "Jefe de Equipo" deberá tener acceso de lectura al directorio de "Requisitos de proyecto". Además, deberá tener acceso de lectura y escritura sobre los directorios de "Hoja de ruta" y "Desarrollo"] -> [el usuario correspondiente al "Jefe de Equipo" deberá tener acceso de lectura al directorio de "Requisitos de producto". Además, deberá tener acceso de lectura y escritura sobre los directorios de "Hoja de ruta" y "Desarrollo"]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [STK-0005] Cliente con 0 hijos y 2 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>CRQ-0002</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido autor [STK-0003] Elena Ayora García]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0011</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº6 ([STK-0006] María Granada)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>STK-0008</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0011</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº8 ([STK-0008] Miguel Gudiel)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>CRQ-0003</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado autor [STK-0002] Alejandro Fernández Trigo]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0009</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº5 ([CRQ-0005] Permisos para departamento de calidad)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>CRQ-0003</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido autor [STK-0003] Elena Ayora García]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0011</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº9 ([STK-0009] Cristina Solís)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>CRQ-0003</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Name] actualizada [Permisos para Desarrolladores] -> [Permisos para jefatura de equipo]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>CRQ-0002</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado autor [STK-0004] Juan Diego Villalobos Quirós]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>STK-0006</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>CRQ-0003</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Description] actualizada [PD] -> [el usuario correspondiente al "Jefe de Equipo" deberá tener acceso de lectura al directorio de "Requisitos de proyecto". Además, deberá tener acceso de lectura y escritura sobre los directorios de "Hoja de ruta" y "Desarrollo"]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>CRQ-0001</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Description] actualizada [PD] -> [el usuario de administración, referente a la jefatura de la empresa, debe tener acceso al sistema documental al completo]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>CRQ-0002</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Description] actualizada [PD] -> [el usuario correspondiente al Jefe de Proyecto deberá tener acceso de lectura a los directorios de "Clientes" y "Hoja de ruta". Ademásd deberá tener acceso de lectura y escritura sobre los directorios de "Prototipos", "Requisitos de producto" y "Feedback de usuario"]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>CRQ-0002</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido autor [STK-0004] Juan Diego Villalobos Quirós]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>STK-0007</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0011</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado hijo nº5 ([STK-0005] Cliente)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>STK-0005</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0011</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº7 ([STK-0007] Javier Guzmán)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>CRQ-0002</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado autor [STK-0002] Alejandro Fernández Trigo]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>CRQ-0001</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado autor [STK-0002] Alejandro Fernández Trigo]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0009</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº4 ([CRQ-0004] Permisos para dirección de investigación)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>CRQ-0002</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado autor [STK-0001] Álvaro Chamorro Pascua]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>CRQ-0001</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido autor [STK-0003] Elena Ayora García]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>CRQ-0004</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>CRQ-0002</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Description] actualizada [el usuario correspondiente al Jefe de Proyecto deberá tener acceso de lectura a los directorios de "Clientes" y "Hoja de ruta". Ademásd deberá tener acceso de lectura y escritura sobre los directorios de "Prototipos", "Requisitos de producto" y "Feedback de usuario"] -> [el usuario correspondiente al Jefe de Proyecto deberá tener acceso de lectura a los directorios de "Clientes" y "Hoja de ruta". Además deberá tener acceso de lectura y escritura sobre los directorios de "Prototipos", "Requisitos de producto" y "Feedback de usuario"]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0007</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº1 ([UC-0001] Uso del administrador)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>UC-0002</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [STK-0010] Pedro Reyes con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0012</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado hijo nº6 ([ACT-0006] Equipo de Desarrollo)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [ACT-0006] Equipo de Desarrollo con 0 hijos y 3 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>IRQ-0003</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0012</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado hijo nº5 ([ACT-0005] Ingeniero de Calidad)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>UC-0004</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0009</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado hijo nº6 ([CRQ-0006] Permisos para el equipo de desarrollo)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0006</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº4 ([IRQ-0004] Detalles de Empleados)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>CRQ-0002</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Description] actualizada [el usuario correspondiente al Jefe de Proyecto deberá tener acceso de lectura a los directorios de "Clientes" y "Hoja de ruta". Además deberá tener acceso de lectura y escritura sobre los directorios de "Prototipos", "Requisitos de producto" y "Feedback de usuario"] -> [el usuario correspondiente al Jefe de Proyecto deberá tener acceso de lectura y escritura a los directorios de "Proyectos". Debe poder crear carpetas]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0002</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido autor [STK-0001] Álvaro Chamorro Pascua]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0006</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº2 ([IRQ-0002] Detalles de desarrollo)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>IRQ-0002</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0007</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº3 ([UC-0003] Uso del Jefe de Equipo)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0011</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado hijo nº10 ([STK-0010] Pedro Reyes)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0011</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado hijo nº9 ([STK-0009] Cristina Solís)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0009</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado hijo nº5 ([CRQ-0005] Permisos para departamento de calidad)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>IRQ-0001</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [RelevantConcept] actualizada [PD] -> [los proyectos en marcha de la organización]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0006</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº3 ([IRQ-0003] Detalles de investigaciones)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0007</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº2 ([UC-0002] Uso del Jefe de Proyecto)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0011</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº10 ([STK-0010] Pedro Reyes)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [CRQ-0005] Permisos para departamento de calidad con 0 hijos y 2 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>IRQ-0004</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>UC-0003</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [ACT-0005] Ingeniero de Calidad con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [STK-0009] Cristina Solís con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [CRQ-0006] Permisos para el equipo de desarrollo con 0 hijos y 2 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0007</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº4 ([UC-0004] Uso del Director de Investigaciones)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>IRQ-0001</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0006</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº1 ([IRQ-0001] Detalles de proyectos)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [IRQ-0006]  con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [IRQ-0008] Información de empleados con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [IRQ-0007] Información de investigación con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0006</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado hijo nº2 ([SEC-0014] Metadatos asociados)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [IRQ-0005] Información de proyectos con 1 hijos y 4 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>IRQ-0001</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Description] del hijo nº1 actualizada: [Autor(es) del documento
+Palabras clave 
+Descripción corta
+Año de realización] -> [Autor(es) del documento,
+Palabras clave,
+Descripción corta,
+Año de realización]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>IRQ-0001</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Description] del hijo nº1 actualizada: [Autor(es) del documento,
+Palabras clave,
+Descripción corta,
+Año de realización] -> [Autor(es) del documento]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0006</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado hijo nº1 ([IRQ-0002] Detalles de desarrollo)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>IRQ-0001</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [RelevantConcept] actualizada [los proyectos en marcha de la organización] -> [los proyectos en marcha de la organización. Deberá incluir los correspondientes metadatos asociados.]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0003</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Name] actualizada [Uso del Jefe de Equipo] -> [Creación de ficheros]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>CRQ-0003</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Description] actualizada [el usuario correspondiente al "Jefe de Equipo" deberá tener acceso de lectura al directorio de "Requisitos de producto". Además, deberá tener acceso de lectura y escritura sobre los directorios de "Hoja de ruta" y "Desarrollo"] -> [el usuario correspondiente al Jefe de Equipo deberá tener acceso de escritura al directorio de "Proyectos" y "Empleados". Deberá tener acceso de lectura y escritura al directorio de "Desarrollo". Deberá poder crear carpetas dentro de los directorios sobre los que tiene permiso de escritura]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>CRQ-0001</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Name] actualizada [Permisos para Administración] -> [Permisos para administración]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0006</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº5 ([SEC-0013] Estructura documental)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>CRQ-0003</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Description] actualizada [el usuario correspondiente al Jefe de Equipo deberá tener acceso de escritura al directorio de "Proyectos" y "Empleados". Deberá tener acceso de lectura y escritura al directorio de "Desarrollo". Deberá poder crear carpetas dentro de los directorios sobre los que tiene permiso de escritura] -> [el usuario correspondiente al Jefe de Equipo deberá tener acceso de lectura al directorio de "Proyectos" y "Empleados". Deberá tener acceso de lectura y escritura al directorio de "Desarrollo". Deberá poder crear carpetas dentro de los directorios sobre los que tiene permiso de escritura]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>IRQ-0001</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº1 ([DAT-0002] Autor(es) del documento
+Palabras clave 
+Descripción corta
+Año de realización)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0002</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Name] actualizada [Uso del Jefe de Proyecto] -> [Creación de directorios]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0004</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Name] actualizada [Uso del Director de Investigaciones] -> [Búsqueda]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0006</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº2 ([SEC-0014] Metadatos asociados)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [IRQ-0006] Información de desarrollo con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [SEC-0014] Metadatos asociados con 1 hijos y 9 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>IRQ-0001</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº2 ([DAT-0003] Palabras clave)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>IRQ-0004</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Name] actualizada [Detalles de Empleados] -> [Detalles de empleados]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>IRQ-0001</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº3 ([DAT-0004] Descripción corta)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0006</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado hijo nº1 ([IRQ-0001] Detalles de proyectos)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [UC-0005]  con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>CRQ-0004</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Description] actualizada [el usuario correspondiente al "Director de Investigaciones" deberá tener acceso de lectura al directorio de "Requisitos de producto". Además, deberá tener acceso de lectura y escritura sobre los directorios de "Investigación", "Clientes", "Análisis" y "Prototipos"] -> [el usuario correspondiente al Director de Investigaciones deberá tener acceso de lectura y escritura al directorio de "Investigaciones". Deberá poder crear carpetas y/o archivos dentro de los directorios sobre los que tiene permiso de escritura]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>IRQ-0001</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Importance] actualizada [PD] -> [vital]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>IRQ-0001</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [RelevantConcept] actualizada [los proyectos en marcha de la organización. Deberá incluir los correspondientes metadatos asociados.] -> [los proyectos en marcha de la organización. Deberá incluir los correspondientes metadatos asociados]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>CRQ-0001</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Description] actualizada [el usuario de administración, referente a la jefatura de la empresa, debe tener acceso al sistema documental al completo] -> [el usuario correspondiene al Administrador, referente a la jefatura de la empresa, debe tener acceso al sistema documental al completo. Debe poder crear, editar y eliminar contenidos]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0006</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado hijo nº1 ([IRQ-0004] Detalles de Empleados)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0006</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado hijo nº1 ([IRQ-0003] Detalles de investigaciones)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>CRQ-0002</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>9</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Description] actualizada [el usuario correspondiente al Jefe de Proyecto deberá tener acceso de lectura y escritura a los directorios de "Proyectos". Debe poder crear carpetas] -> [el usuario correspondiente al Jefe de Proyecto deberá tener acceso de lectura y escritura a los directorios de "Proyectos". Deberá poder crear carpetas y/o archivos dentro de los directorios sobre los que tiene permiso de escritura]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>IRQ-0004</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº2 ([DAT-0015] Salario)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>IRQ-0002</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº3 ([DAT-0008] Año de realización)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>IRQ-0004</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº1 ([DAT-0014] Experiencia laboral)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>IRQ-0002</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº2 ([DAT-0007] Tipo de proyecto)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>SEC-0013</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0014</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº1 ([FRQ-0002] Software)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0005</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido autor [STK-0002] Alejandro Fernández Trigo]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0006</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº3 ([IRQ-0002] Detalles de desarrollo)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [SEC-0013] Estructura documental con 0 hijos y 10 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>IRQ-0002</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº1 ([DAT-0006] Temas relacionados)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0002</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido autor [STK-0002] Alejandro Fernández Trigo]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0010</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido autor [STK-0002] Alejandro Fernández Trigo]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>IRQ-0001</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº4 ([DAT-0005] Año de realización)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0011</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido autor [STK-0002] Alejandro Fernández Trigo]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>SEC-0014</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0012</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido autor [STK-0002] Alejandro Fernández Trigo]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>IRQ-0003</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº3 ([DAT-0012] Descripción corta)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0001</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido autor [STK-0002] Alejandro Fernández Trigo]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>IRQ-0002</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº4 ([DAT-0009] Versión)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>IRQ-0003</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº1 ([DAT-0010] Autor(es) del documento)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0006</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado hijo nº1 ([SEC-0013] Estructura documental)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0005</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº5 ([SEC-0013] Requisitos Funcionales)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>FRQ-0001</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0003</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido autor [STK-0002] Alejandro Fernández Trigo]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>IRQ-0003</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº2 ([DAT-0011] Palabras clave)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0006</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº4 ([IRQ-0003] Detalles de investigaciones)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0006</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº2 ([IRQ-0001] Detalles de proyectos)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0013</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº1 ([FRQ-0001] Búsqueda)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0005</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº6 ([SEC-0014] Requisitos No Funcionales)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0006</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº5 ([IRQ-0004] Detalles de empleados)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0004</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido autor [STK-0002] Alejandro Fernández Trigo]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0002</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Importance] actualizada [PD] -> [importante]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0002</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Postcondition] actualizada [El nuevo contenido creado está a disposición de todos los usuarios con permiso (al menos de lectura) para ese directorio] -> [El nuevo contenido creado está a disposición de todos los usuarios con permiso (al menos de lectura) para ese directorio.]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0002</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº1 (El sistema El usuario accede a...)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0002</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Actor] del hijo nº1 actualizada: [] -> [[ACT-0001] Administrador]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0002</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº2 (El sistema pernite al usuario ...)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0003</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº1 (El sistema permite el acceso a...)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0003</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº2 (El sistema permite al usuario ...)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>IRQ-0003</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Comments] actualizada [Ninguno] -> [Referencia los documentos asociados las investigaciones llevadas a cabo por el área de I+D de la organización.]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0002</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [IsActorAction] del hijo nº1 actualizada: [false] -> [true]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0004</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [TriggeringEvent] actualizada [PD] -> [un usuario quiere hacer una consulta al sistema que devuelva un fichero o directorio dentro de DMS para el cual tiene permiso (al menos) de lectura]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>IRQ-0001</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Comments] actualizada [Ninguno] -> [Referencia los documentos asociados a cada proyecto que ejecuta la organización.]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0002</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº3 (El sistema genera un nuevo rec...)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0003</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [TriggeringEvent] actualizada [PD] -> [cuando un usuario quiere crear un nuevo fichero dentro de un directorio en el que cuenta con permiso de escritura. ]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0003</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [TriggeringEvent] actualizada [cuando un usuario quiere crear un nuevo fichero dentro de un directorio en el que cuenta con permiso de escritura. ] -> [cuando un usuario quiere crear un nuevo fichero dentro de un directorio en el que cuenta con permiso de escritura]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0002</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Precondition] actualizada [El usuario cuenta con permiso de escritura para el directorio dónde quiere operar] -> [El usuario cuenta con permiso de escritura para el directorio dónde quiere operar.]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0004</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Postcondition] actualizada [PD] -> [El recurso devuelto (de existir), está disponible para el usuario (este tiene, al menos, permiso de lectura) asociado. ]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0002</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [TriggeringEvent] actualizada [PD] -> [un usuario quiere crear una nueva carpeta dentro de un directorio en el que cuenta con permiso de escritura]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0002</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [IsSystemAction] del hijo nº1 actualizada: [false] -> [true]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0002</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Description] del hijo nº2 actualizada: [pernite al usuario definir una nueva carpeta dentro del directorio actual.] -> [permite al usuario definir una nueva carpeta dentro del directorio actual.]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0003</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Postcondition] actualizada [PD] -> [El nuevo contenido creado está a disposición de todos los usuarios con permiso (al menos de lectura) para ese directorio.]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0004</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado autor [STK-0001] Álvaro Chamorro Pascua]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0002</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Postcondition] actualizada [PD] -> [El nuevo contenido creado está a disposición de todos los usuarios con permiso (al menos de lectura) para ese directorio]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0003</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Precondition] actualizada [PD] -> [El usuario cuenta con permiso de escritura para el directorio dónde quiere operar.]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>IRQ-0002</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Comments] actualizada [Ninguno] -> [Referencia los documentos que gestiona el equipo de desarrollo durante la ejecución de un proyecto concreto.]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0002</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Description] del hijo nº1 actualizada: [ accede a un directorio sobre el cual posee permiso de escritura. ] -> [permite el acceso al usuario a un directorio sobre el cual posee permiso de escritura. ]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0003</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº3 (El sistema genera un nuevo rec...)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0003</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Description] del hijo nº2 actualizada: [permite al usuario subir y/o editar los datos de un fichero ] -> [permite al usuario subir y/o editar los datos de un fichero dentro del directorio actual.]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0004</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido autor [STK-0002] Alejandro Fernández Trigo]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0002</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Description] del hijo nº1 actualizada: [El usuario accede a un directorio sobre el cual posee permiso de escritura. ] -> [ accede a un directorio sobre el cual posee permiso de escritura. ]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0004</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Name] actualizada [Búsqueda] -> [Búsqueda de ficheros]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>IRQ-0004</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Comments] actualizada [Ninguno] -> [Referencia los documentos asociados los empleados de la organización.]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0002</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Precondition] actualizada [PD] -> [El usuario cuenta con permiso de escritura para el directorio dónde quiere operar]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>SEC-0015</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0014</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº3 ([NFR-0002] Software)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>NFR-0002</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Description] actualizada [El sistema deberá ejecutarse sobre una versión del software Alfresco superior o igual a la 7.0 en su rama "Community"] -> [ejecutarse sobre una versión del software Alfresco superior o igual a la 7.0 en su rama "Community"]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>NFR-0002</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido autor [STK-0002] Alejandro Fernández Trigo]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>NFR-0002</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Importance] actualizada [PD] -> [vital]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>CRQ-0004</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Importance] actualizada [PD] -> [vital]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>NFR-0001</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0015</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº1 ([NFR-0001] Interfaz)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>NFR-0003</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Description] actualizada [El sistema deberá buscar la sencillez de uso, evitando nomenclaturas y/o estructuras muy complejas que reduzcan la usabilidad] -> [buscar la sencillez de uso, evitando nomenclaturas y/o estructuras muy complejas que reduzcan la usabilidad]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>CRQ-0001</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Importance] actualizada [PD] -> [vital]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>CRQ-0003</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Importance] actualizada [PD] -> [vital]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>NFR-0002</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Description] actualizada [PD] -> [El sistema deberá ejecutarse sobre una versión del software Alfresco superior o igual a la 7.0 en su rama "Community"]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0006</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido autor [STK-0002] Alejandro Fernández Trigo]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>IRQ-0004</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Importance] actualizada [PD] -> [vital]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>NFR-0002</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [FRQ-0003] Sencillez con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0009</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido autor [STK-0002] Alejandro Fernández Trigo]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>OBJ-0001</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Importance] actualizada [PD] -> [vital]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0005</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº7 ([SEC-0015] Requisitos de Interfaz)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>NFR-0003</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0014</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado hijo nº2 ([FRQ-0003] Sencillez)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0014</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado hijo nº1 ([FRQ-0002] Software)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>CRQ-0002</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Importance] actualizada [PD] -> [vital]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>IRQ-0003</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido autor [STK-0004] Juan Diego Villalobos Quirós]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [FRQ-0002] Software con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0014</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº4 ([NFR-0003] Sencillez)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0007</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido autor [STK-0002] Alejandro Fernández Trigo]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>IRQ-0003</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Importance] actualizada [PD] -> [vital]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>IRQ-0002</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido autor [STK-0001] Álvaro Chamorro Pascua]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>IRQ-0002</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Importance] actualizada [PD] -> [vital]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0014</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº2 ([FRQ-0003] Sencillez)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0006</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>11</rem:day>
+</rem:date>
+<rem:description><![CDATA[Intercambiados hijos nº3 (Se realiza el caso de uso Crea...) y nº2 (Actor Jefe de Proyecto introdu...)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>NFR-0001</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>11</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Name] actualizada [Interfaz] -> [Interfaz de Usuario]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>IRQ-0003</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>12</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Comments] actualizada [Referencia los documentos asociados las investigaciones llevadas a cabo por el área de I+D de la organización.] -> [Referencia los documentos asociados las investigaciones llevadas a cabo por el área de I+D de la organización. Las investigaciones se organizan en directorios por años.]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0006</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>11</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Description] del hijo nº3 actualizada: [El sistema registra los datos, quedado estos a disposición de los actores con permiso de (al menos) lectura.
+] -> [registra los datos, quedado estos a disposición de los actores con permiso de (al menos) lectura.
+]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>FRQ-0002</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>11</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0006</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>11</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº4 (Se realiza el caso de uso Crea...)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0006</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>11</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº5 (Se realiza el caso de uso Crea...)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0004</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>12</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [TriggeringEvent] actualizada [un usuario quiere hacer una consulta al sistema que devuelva un fichero o directorio dentro de DMS para el cual tiene permiso (al menos) de lectura] -> [el administrador quiere hacer una consulta al sistema que devuelva un fichero o directorio dentro de DMS]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0006</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>11</rem:day>
+</rem:date>
+<rem:description><![CDATA[Intercambiados hijos nº5 (Se realiza el caso de uso Crea...) y nº4 (El sistema registra los datos,...)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0004</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>12</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [TriggeringEvent] actualizada [el administrador quiere hacer una consulta al sistema que devuelva un fichero o directorio dentro de DMS] -> [el administrador quiere hacer una consulta al sistema que devuelva un proyecto]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0004</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>12</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Name] actualizada [Búsqueda de proyectos por autor] -> [Búsqueda de proyectos por metadatos]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0004</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>12</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [TriggeringEvent] actualizada [el administrador quiere hacer una consulta al sistema que devuelva un proyecto] -> [el usuario quiere hacer una consulta al sistema que devuelva un proyecto]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>IRQ-0002</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>12</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado hijo nº2 ([DAT-0008] Año de realización)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0004</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>12</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Description] del hijo nº1 actualizada: [permite al usuario introducir un autor para ejecutar la búsqueda.] -> [permite al usuario introducir un autor y/o palabra clave para ejecutar la búsqueda.]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>IRQ-0001</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>12</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado hijo nº4 ([DAT-0005] Año de realización)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>UC-0008</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>12</rem:day>
+</rem:date>
+<rem:description><![CDATA[Clonado a partir de [UC-0004] Búsqueda de proyectos por metadatos del proyecto C:\Users\aleja\Downloads\REM DMS v1.rem]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0008</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>12</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Name] actualizada [Copia de Búsqueda de proyectos por metadatos] -> [Búsqueda de empleados por metadatos]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0007</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>11</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº2 (Se realiza el caso de uso Crea...)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0004</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>12</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Description] del hijo nº1 actualizada: [permite al usuario introducir términos de búsqueda.] -> [permite al usuario introducir un autor para ejecutar la búsqueda.]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0006</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>11</rem:day>
+</rem:date>
+<rem:description><![CDATA[Intercambiados hijos nº4 (Se realiza el caso de uso Crea...) y nº3 (El sistema registra los datos,...)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0005</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>11</rem:day>
+</rem:date>
+<rem:description><![CDATA[Intercambiados hijos nº3 (Se realiza el caso de uso Crea...) y nº2 (El sistema registra los datos,...)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>IRQ-0002</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>12</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado hijo nº2 ([DAT-0007] Tipo de proyecto)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0004</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>12</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Name] actualizada [Búsqueda de ficheros] -> [Búsqueda de proyectos por autor]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0005</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>11</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº3 (Se realiza el caso de uso Crea...)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>IRQ-0001</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>12</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Comments] actualizada [Referencia los documentos asociados a cada proyecto que ejecuta la organización.] -> [Referencia los documentos asociados a cada proyecto que ejecuta la organización. Los proyectos se organizan en directorios por años.]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0007</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>12</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº7 ([UC-0008] Copia de Búsqueda de proyectos por metadatos)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0007</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>12</rem:day>
+</rem:date>
+<rem:description><![CDATA[Intercambiados hijos nº6 ([UC-0007] Registro nueva investigación) y nº7 ([UC-0008] Copia de Búsqueda de proyectos por metadatos)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0007</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>12</rem:day>
+</rem:date>
+<rem:description><![CDATA[Intercambiados hijos nº4 ([UC-0005] Alta de nuevo empleado) y nº5 ([UC-0008] Copia de Búsqueda de proyectos por metadatos)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0007</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>11</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº3 (El sistema registra los datos,...)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0007</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>12</rem:day>
+</rem:date>
+<rem:description><![CDATA[Intercambiados hijos nº5 ([UC-0006] Creación nuevo proyecto) y nº6 ([UC-0008] Copia de Búsqueda de proyectos por metadatos)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0013</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>11</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº2 ([FRQ-0002] Creación, edición, eliminación)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0007</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>11</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº1 (Actor Director de Investigacio...)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>UC-0007</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0004</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Precondition] actualizada [PD] -> [El sistema está listo para recibir peticiones de búsqueda.]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0003</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Importance] actualizada [PD] -> [importante]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0007</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº5 ([UC-0006] Creación nuevo proyecto)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>UC-0006</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0004</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>11</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº1 (El sistema permite al usuario ...)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0006</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>11</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Postcondition] actualizada [PD] -> [Los detalles relacionados con el proyecto en cuestión quedan a disposición de los actores con permiso de (al menos) lectura.]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0006</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>11</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº1 (Actor Administrador introduce ...)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0007</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>11</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Postcondition] actualizada [PD] -> [Los detalles relacionados con la investigación en cuestión quedan a disposición de los actores con permiso de (al menos) lectura.]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0007</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº4 ([UC-0005] Alta de nuevo empleado)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0007</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado hijo nº1 ([UC-0001] Uso del administrador)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0005</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>11</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº1 (Actor Administrador introduce ...)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [UC-0001] Uso del administrador con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [UC-0005]  con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0004</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Importance] actualizada [PD] -> [importante]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0005</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>11</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Postcondition] actualizada [PD] -> [Los detalles del empleado quedan registrados en el directorio de "Empleados".]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0006</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>11</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Precondition] actualizada [PD] -> [Hay un nuevo proyecto que va a dar comienzo y es necesario registrar los detalles.]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0007</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº6 ([UC-0007] Registro nueva investigación)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0005</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>11</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº2 (El sistema registra los datos,...)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0007</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>11</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [TriggeringEvent] actualizada [PD] -> [se inicia una nueva investigación por parte del departamento de I+D de la organización]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0007</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>11</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Precondition] actualizada [PD] -> [Hay una nueva investigación que va dar comienzo y es necesario registrar los detalles.]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>UC-0005</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>10</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0006</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>11</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Description] del hijo nº1 actualizada: [introduce los detalles del nuevo proyecto que va a iniciarse.] -> [registra el nuevo proyecto que va a iniciarse.]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0004</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>11</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº2 (Actor Administrador introduce ...)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0004</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>11</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº3 (El sistema devuelve (de existi...)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0006</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>11</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [TriggeringEvent] actualizada [PD] -> [se inicia un nuevo proyecto por parte de la organización]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0005</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>11</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Precondition] actualizada [PD] -> [Un nuevo empleado ha de ser registrado en el sistema por la administración.]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0006</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>11</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº2 (Actor Jefe de Proyecto introdu...)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0006</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>11</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº3 (El sistema registra los detall...)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0006</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>11</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Description] del hijo nº3 actualizada: [registra los detalles introducidos ] -> [El sistema registra los datos, quedado estos a disposición de los actores con permiso de (al menos) lectura.
+]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0005</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>11</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [TriggeringEvent] actualizada [PD] -> [el administrador quiera dar de alta un nuevo empleado en la organización]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>16</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Version] actualizada [1.0 2021/11/08] -> [2.0 2021/11/15]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0007</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº9 ([SEC-0016] Casos de Uso - Genéricos )]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0007</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado hijo nº1 ([UC-0002] Creación de directorios)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0007</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>12</rem:day>
+</rem:date>
+<rem:description><![CDATA[Intercambiados hijos nº6 ([UC-0006] Creación nuevo proyecto) y nº7 ([UC-0009] Copia de Búsqueda de empleados por metadatos)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0009</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>12</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Name] actualizada [Copia de Búsqueda de empleados por metadatos] -> [Búsqueda de investigaciones por metadatos]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0016</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº1 ([UC-0002] Creación de directorios)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0009</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>12</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [TriggeringEvent] actualizada [el usuario quiere hacer una consulta al sistema que devuelva un empleado] -> [el usuario quiere hacer una consulta al sistema que devuelva una investigación]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0013</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>16</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº3 ([FRQ-0003] Creación de ficheros)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0016</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº2 ([UC-0003] Creación de ficheros)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0007</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>12</rem:day>
+</rem:date>
+<rem:description><![CDATA[Intercambiados hijos nº5 ([UC-0005] Alta de nuevo empleado) y nº6 ([UC-0009] Copia de Búsqueda de empleados por metadatos)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0005</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>16</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº8 ([SEC-0016] Copia de Requisitos Funcionales)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0005</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>16</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado hijo nº8 ([SEC-0016] Copia de Requisitos Funcionales)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>16</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [FRQ-0003] Copia de Búsqueda con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>FRQ-0003</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>16</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>OBJ-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Urgency] actualizada [PD] -> [inmediatamente]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>FRQ-0002</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>16</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Description] actualizada [permitir a los usuarios, crear carpetas dentro de los directorios en los que cuentan con permiso de escritura] -> [permitir a los usuarios crear carpetas dentro de los directorios en los que cuentan con permiso de escritura]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>OBJ-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Stability] actualizada [PD] -> [media]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>16</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [SEC-0016] Copia de Requisitos Funcionales con 2 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0007</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado hijo nº1 ([UC-0003] Creación de ficheros)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>SEC-0017</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0008</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>12</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [TriggeringEvent] actualizada [el usuario quiere hacer una consulta al sistema que devuelva un proyecto] -> [el usuario quiere hacer una consulta al sistema que devuelva un empleado]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0007</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>12</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº8 ([UC-0009] Copia de Búsqueda de empleados por metadatos)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0008</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>12</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Description] del hijo nº1 actualizada: [permite al usuario introducir un autor y/o palabra clave para ejecutar la búsqueda.] -> [permite al usuario introducir los términos para ejecutar la búsqueda.]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0007</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>12</rem:day>
+</rem:date>
+<rem:description><![CDATA[Intercambiados hijos nº7 ([UC-0007] Registro nueva investigación) y nº8 ([UC-0009] Copia de Búsqueda de empleados por metadatos)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>16</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [FRQ-0004] Copia de Creación de directorios con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>FRQ-0002</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>16</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Name] actualizada [Creación, edición, eliminación] -> [Creación de directorios]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>FRQ-0002</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>16</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Description] actualizada [permitir a los usuarios editar los directorios sobre los que tienen permiso de escritura, creando, editando y/o eliminando contenidos] -> [permitir a los usuarios, crear carpetas dentro de los directorios en los que cuentan con permiso de escritura]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0009</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>12</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Description] del hijo nº1 actualizada: [permite al usuario introducir los términos para ejecutar la búsqueda.] -> [permite al usuario introducir un autor y/o palabras clave para ejecutar la búsqueda.]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>UC-0009</rem:owner><rem:date>
+<rem:year>2021</rem:year>
+<rem:month>11</rem:month>
+<rem:day>12</rem:day>
+</rem:date>
+<rem:description><![CDATA[Clonado a partir de [UC-0008] Búsqueda de empleados por metadatos del proyecto C:\Users\aleja\Downloads\REM DMS v1.rem]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Version] actualizada [2.0 2021/11/15] -> [3.0 2022/01/21]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>SEC-0016</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>OBJ-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Status] actualizada [PD] -> [en construcción]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>IRQ-0003</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Stability] actualizada [PD] -> [alta]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>IRQ-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Version] actualizada [1.0 2021/11/09] -> [3.0 2022/01/23]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>IRQ-0002</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Urgency] actualizada [PD] -> [inmediatamente]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>IRQ-0004</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Version] actualizada [1.0 2021/11/09] -> [3.0 2022/01/23]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>IRQ-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Status] actualizada [PD] -> [pendiente de validación]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>CRQ-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Version] actualizada [1.0 2021/11/09] -> [3.0 2022/01/23]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>CRQ-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Status] actualizada [PD] -> [pendiente de validación]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>IRQ-0003</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Status] actualizada [PD] -> [pendiente de validación]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>CRQ-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Stability] actualizada [PD] -> [alta]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0017</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº1 ([UC-0004] Búsqueda de proyectos por metadatos)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0007</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado hijo nº1 ([UC-0008] Búsqueda de empleados por metadatos)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>IRQ-0003</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Version] actualizada [1.0 2021/11/09] -> [3.0 2022/01/23]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>IRQ-0003</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Urgency] actualizada [PD] -> [inmediatamente]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>IRQ-0002</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [RelevantConcept] actualizada [el estado de los equipos de desarrollo de la organización] -> [el estado de los equipos de desarrollo de la organización. Deberá incluir los correspondientes metadatos asociados]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>IRQ-0002</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Status] actualizada [PD] -> [pendiente de validación]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>IRQ-0002</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Stability] actualizada [PD] -> [alta]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0007</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado hijo nº1 ([UC-0004] Búsqueda de proyectos por metadatos)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0017</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº2 ([UC-0008] Búsqueda de empleados por metadatos)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>IRQ-0004</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº3 ([DAT-0043] Nombre)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>IRQ-0004</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Intercambiados hijos nº2 ([DAT-0043] Nombre) y nº1 ([DAT-0014] Experiencia laboral)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>IRQ-0002</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Version] actualizada [1.0 2021/11/09] -> [3.0 2022/01/23]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0007</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado hijo nº1 ([UC-0009] Búsqueda de investigaciones por metadatos)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>IRQ-0004</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Intercambiados hijos nº3 ([DAT-0043] Nombre) y nº2 ([DAT-0015] Salario)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>IRQ-0004</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Stability] actualizada [PD] -> [alta]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>IRQ-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Urgency] actualizada [PD] -> [inmediatamente]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>IRQ-0004</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Status] actualizada [PD] -> [pendiente de validación]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>IRQ-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Stability] actualizada [PD] -> [alta]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>CRQ-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Urgency] actualizada [PD] -> [inmediatamente]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>IRQ-0004</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Urgency] actualizada [PD] -> [inmediatamente]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0017</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº3 ([UC-0009] Búsqueda de investigaciones por metadatos)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0007</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº8 ([SEC-0017] Búsqueda)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0018</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº1 ([UC-0005] Alta de nuevo empleado)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0007</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Version] actualizada [1.0 2021/11/09] -> [3.0 2022/01/23]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0003</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Version] actualizada [1.0 2021/11/09] -> [3.0 2022/01/23]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0004</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Urgency] actualizada [PD] -> [inmediatamente]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0004</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Stability] actualizada [PD] -> [alta]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>UC-0010</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0017</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº4 ([UC-0010] Búsqueda de documentos de desarrollo por metadatos)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0018</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº2 ([UC-0006] Creación nuevo proyecto)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0007</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº6 ([SEC-0018] Varios)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0002</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Version] actualizada [1.0 2021/11/09] -> [3.0 2022/01/23]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0002</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Urgency] actualizada [PD] -> [inmediatamente]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0002</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Status] actualizada [PD] -> [pendiente de validación]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0007</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado hijo nº1 ([UC-0007] Registro nueva investigación)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0002</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Stability] actualizada [PD] -> [alta]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>NFR-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Status] actualizada [PD] -> [pendiente de validación]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0003</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Urgency] actualizada [PD] -> [inmediatamente]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0004</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Version] actualizada [1.0 2021/11/09] -> [3.0 2022/01/23]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0004</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Status] actualizada [PD] -> [pendiente de validación]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0003</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Stability] actualizada [PD] -> [alta]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0008</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Version] actualizada [1.0 2021/11/12] -> [3.0 2022/01/23]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>NFR-0003</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Status] actualizada [PD] -> [pendiente de validación]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0008</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Urgency] actualizada [PD] -> [inmediatamente]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0008</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Status] actualizada [PD] -> [pendiente de validación]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>NFR-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Urgency] actualizada [PD] -> [inmediatamente]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0007</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado hijo nº1 ([UC-0006] Creación nuevo proyecto)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0003</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Status] actualizada [PD] -> [pendiente de validación]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0008</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Stability] actualizada [PD] -> [alta]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0018</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº3 ([UC-0007] Registro nueva investigación)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>NFR-0003</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Stability] actualizada [PD] -> [alta]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>SEC-0018</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>NFR-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Stability] actualizada [PD] -> [alta]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0007</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado hijo nº1 ([UC-0005] Alta de nuevo empleado)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>CRQ-0004</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Urgency] actualizada [PD] -> [inmediatamente]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>CRQ-0003</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Status] actualizada [PD] -> [pendiente de validación]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>CRQ-0002</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Urgency] actualizada [PD] -> [inmediatamente]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>CRQ-0003</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Urgency] actualizada [PD] -> [inmediatamente]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>ACT-0002</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Description] actualizada [al director de proyectos de la empresa] -> [al jefe de proyectos de la empresa]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>FRQ-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Description] actualizada [permitir la búsqueda de documentos para los usuarios dentro de aquellos directorios sobre los que tienen acceso (al menos de lectura), empleando para ello términos o metadatos] -> [permitir la búsqueda de documentos para los usuarios dentro de aquellos directorios sobre los que tienen acceso (al menos de lectura), empleando para ello términos o metadatos dependiendo del caso]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>FRQ-0003</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Stability] actualizada [PD] -> [alta]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>NFR-0003</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Urgency] actualizada [PD] -> [inmediatamente]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>CRQ-0004</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Stability] actualizada [PD] -> [alta]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>CRQ-0003</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Description] actualizada [el usuario correspondiente al Jefe de Equipo deberá tener acceso de lectura al directorio de "Proyectos" y "Empleados". Deberá tener acceso de lectura y escritura al directorio de "Desarrollo". Deberá poder crear carpetas dentro de los directorios sobre los que tiene permiso de escritura] -> [el usuario correspondiente al Jefe de Equipo deberá tener acceso de lectura al directorio de "Proyectos" y "Empleados". Deberá tener acceso de lectura y escritura al directorio de "Desarrollo". Deberá poder crear carpetas y/o archivos dentro de los directorios sobre los que tiene permiso de escritura]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>CRQ-0002</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Stability] actualizada [PD] -> [alta]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>FRQ-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Stability] actualizada [PD] -> [alta]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>CRQ-0003</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Version] actualizada [1.0 2021/11/09] -> [3.0 2022/01/23]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>FRQ-0002</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Status] actualizada [PD] -> [pendiente de validación]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>FRQ-0003</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Urgency] actualizada [PD] -> [inmediatamente]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>NFR-0002</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Status] actualizada [PD] -> [pendiente de validación]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>ACT-0002</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Name] actualizada [Jefe de Proyecto] -> [Jefe de Proyectos]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>NFR-0002</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Urgency] actualizada [PD] -> [inmediatamente]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>CRQ-0003</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Stability] actualizada [PD] -> [alta]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>CRQ-0003</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Comments] actualizada [Ninguno] -> [Refiere al Jefe de Proyecto]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>FRQ-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Urgency] actualizada [PD] -> [inmediatamente]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>FRQ-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Status] actualizada [PD] -> [pendiente de validación]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>NFR-0002</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Stability] actualizada [PD] -> [alta]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>FRQ-0003</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Status] actualizada [PD] -> [pendiente de validación]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>CRQ-0003</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Comments] actualizada [Refiere al Jefe de Proyecto] -> [Refiere al Jefe de Proyectos]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>FRQ-0002</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Urgency] actualizada [PD] -> [inmediatamente]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>CRQ-0002</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Status] actualizada [PD] -> [pendiente de validación]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>CRQ-0004</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Status] actualizada [PD] -> [pendiente de validación]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>CRQ-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Comments] actualizada [Ninguno] -> [El administrador tiene permisos completos sobre el sistema documental al completo.]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>CRQ-0002</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Version] actualizada [1.0 2021/11/09] -> [3.0 2022/01/23]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>FRQ-0002</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Stability] actualizada [PD] -> [alta]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0007</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Urgency] actualizada [PD] -> [inmediatamente]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0006</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Status] actualizada [PD] -> [pendiente de validación]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0005</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Importance] actualizada [importante] -> [vital]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0006</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Importance] actualizada [importante] -> [vital]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0007</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Stability] actualizada [PD] -> [alta]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0007</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Status] actualizada [PD] -> [pendiente de validación]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0009</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Status] actualizada [PD] -> [pendiente de validación]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0009</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Importance] actualizada [importante] -> [vital]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>OBJ-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Status] actualizada [en construcción] -> [pendiente de validación]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0010</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [TriggeringEvent] actualizada [PD] -> [el usuario quiere hacer una consulta al sistema que devuelva un documento asociado al desarrollo de proyectos]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0005</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Stability] actualizada [PD] -> [alta]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0006</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Urgency] actualizada [PD] -> [inmediatamente]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0006</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Version] actualizada [1.0 2021/11/10] -> [3.0 2022/01/23]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>IRQ-0004</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado hijo nº3 ([DAT-0015] Salario)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>IRQ-0003</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado hijo nº3 ([DAT-0012] Descripción corta)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0004</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Importance] actualizada [importante] -> [vital]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>IRQ-0002</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado hijo nº1 ([DAT-0006] Temas relacionados)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0007</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Importance] actualizada [importante] -> [vital]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0006</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Stability] actualizada [PD] -> [alta]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0007</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Version] actualizada [1.0 2021/11/10] -> [3.0 2021/11/10]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0009</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Stability] actualizada [PD] -> [alta]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>OBJ-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Stability] actualizada [media] -> [alta]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0009</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Urgency] actualizada [PD] -> [inmediatamente]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>IRQ-0003</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Comments] actualizada [Referencia los documentos asociados las investigaciones llevadas a cabo por el área de I+D de la organización. Las investigaciones se organizan en directorios por años.] -> [Referencia los documentos asociados las investigaciones llevadas a cabo por el área de I+D de la organización. Las investigaciones se organizan en directorios por años. También incluye una breve descripción pero no aplica a la búsqueda.]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>IRQ-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Comments] actualizada [Referencia los documentos asociados a cada proyecto que ejecuta la organización. Los proyectos se organizan en directorios por años.] -> [Referencia los documentos asociados a cada proyecto que ejecuta la organización. Los proyectos se organizan en directorios por años. También incluye una breve descripción pero no aplica a la búsqueda.]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0009</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Version] actualizada [1.0 2021/11/12] -> [3.0 2022/01/23]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0003</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Importance] actualizada [importante] -> [vital]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0008</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Importance] actualizada [importante] -> [vital]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0002</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Importance] actualizada [importante] -> [vital]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0005</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Version] actualizada [1.0 2021/11/10] -> [3.0 2022/01/23]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0005</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Urgency] actualizada [PD] -> [inmediatamente]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0005</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>23</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Status] actualizada [PD] -> [pendiente de validación]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0005</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Description] del hijo nº1 actualizada: [introduce los detalles del nuevo empleado en el sistema.] -> [introduce los detalles del empleado en el sistema.]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0005</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Precondition] actualizada [Un nuevo empleado ha de ser registrado en el sistema por la administración.] -> [Un nuevo empleado ha de ser registrado en el sistema por la administración o han de realizarse cambios sobre la ficha de un empleado.]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>UC-0011</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>IRQ-0002</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Comments] actualizada [Referencia los documentos que gestiona el equipo de desarrollo durante la ejecución de un proyecto concreto.] -> [Referencia los documentos que gestiona el equipo de desarrollo durante la ejecución de un proyecto concreto. Se consulta con una periodicidad diaria.]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>IRQ-0003</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [RelevantConcept] actualizada [las investigaciones llevadas a cabo por el equipo de I+D. Deberá incluir los correspondientes metadatos asociados.] -> [las investigaciones llevadas a cabo por el equipo de I+D. Deberá incluir los correspondientes metadatos asociados]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>IRQ-0004</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [RelevantConcept] actualizada [la información sobre los empleados de la organización] -> [la información sobre los empleados de la organización. Deberá incluir los correspondientes metadatos asociados]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0005</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [FrequencyValue] actualizada: [0.000000] -> [3.000000]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0005</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [FrequencyTimeUnit] actualizada [PD] -> [mes(es)]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0007</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Comments] actualizada [Frecuencia esperada: Trimestral] -> [Frecuencia esperada: trimestral]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>IRQ-0003</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [RelevantConcept] actualizada [las investigaciones llevadas a cabo por el equipo de I+D] -> [las investigaciones llevadas a cabo por el equipo de I+D. Deberá incluir los correspondientes metadatos asociados.]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>IRQ-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Comments] actualizada [Referencia los documentos asociados a cada proyecto que ejecuta la organización. Los proyectos se organizan en directorios por años. También incluye una breve descripción pero no aplica a la búsqueda.] -> [Referencia los documentos asociados a cada proyecto que ejecuta la organización. Los proyectos se organizan en directorios por años. También incluye una breve descripción pero no aplica a la búsqueda. Se consulta con una periodicidad semanal.]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>IRQ-0004</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Comments] actualizada [Referencia los documentos asociados los empleados de la organización.] -> [Referencia los documentos asociados los empleados de la organización. La experiencia laboral representa cantidades de tiempo. Se consulta con una periodicidad trimestral.]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0018</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº4 ([UC-0011] )]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0011</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [TriggeringEvent] actualizada [se requiere crear un nuevo documento de desarrollo] -> [se requiere crear un nuevo documento de desarrollo por parte del jefe de proyectos. ]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0005</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [FrequencyValue] actualizada: [3.000000] -> [1.000000]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0007</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Comments] actualizada [Ninguno] -> [Frecuencia esperada: Trimestral]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0011</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [TriggeringEvent] actualizada [se requiere crear un nuevo documento de desarrollo por parte del jefe de proyectos. ] -> [se requiere crear un nuevo documento de desarrollo]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0005</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [TriggeringEvent] actualizada [el administrador quiera dar de alta un nuevo empleado en la organización] -> [el administrador quiera dar de alta un nuevo empleado en la organización y/o modificar datos de uno existente]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0011</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Postcondition] actualizada [PD] -> [Los detalles del desarrollo correspondientes a esa versión quedan a disposición de los actores con permiso de (al menos) lectura.]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0005</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [FrequencyTimeUnit] actualizada [mes(es)] -> [PD]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0011</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Precondition] actualizada [PD] -> [Hay una nueva versión que necesita ser registrada.]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0011</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº1 (Actor Administrador registra l...)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0011</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº2 (Se realiza el caso de uso Crea...)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0011</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº3 (El sistema registra los datos,...)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0018</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Name] actualizada [Varios] -> [Casos de Uso - Creación]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0017</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Name] actualizada [Búsqueda] -> [Casos de Uso - Búsqueda]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>IRQ-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado hijo nº3 ([DAT-0004] Descripción corta)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>IRQ-0003</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Comments] actualizada [Referencia los documentos asociados las investigaciones llevadas a cabo por el área de I+D de la organización. Las investigaciones se organizan en directorios por años. También incluye una breve descripción pero no aplica a la búsqueda.] -> [Referencia los documentos asociados las investigaciones llevadas a cabo por el área de I+D de la organización. Las investigaciones se organizan en directorios por años. También incluye una breve descripción pero no aplica a la búsqueda. Se consulta con una periodicidad semanal.]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0005</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Comments] actualizada [Ninguno] -> [Frecuencia esperada: trimestral.]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0005</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [FrequencyValue] actualizada: [1.000000] -> [0.000000]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0006</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Comments] actualizada [Ninguno] -> [Frecuencia esperada: trimestral.]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0012</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº2 (Actor Administrador introduce ...)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0012</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [TriggeringEvent] actualizada [el usuario quiere hacer una consulta al sistema que devuelve un proyecto ] -> [el usuario quiere hacer una consulta al sistema que devuelva un proyecto]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0017</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Intercambiados hijos nº3 ([UC-0009] Búsqueda de investigaciones por metadatos) y nº4 ([UC-0012] Búsqueda de proyectos por año)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0012</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Description] del hijo nº1 actualizada: [El sistema permite al usuario introducir un año para ejecutar la búsqueda.] -> [permite al usuario introducir un año para ejecutar la búsqueda.]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0017</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº6 ([UC-0013] Búsqueda de investigaciones por año)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0010</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Actor] del hijo nº2 actualizada: [[ACT-0003] Jefe de Equipo] -> [[ACT-0001] Administrador]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0004</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Comments] actualizada [Se consulta con una periodicidad semanal.] -> [Periodicidad: semanal.]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0012</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [TriggeringEvent] actualizada [PD] -> [el usuario quiere hacer una consulta al sistema que devuelve un proyecto ]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0008</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Description] del hijo nº1 actualizada: [permite al usuario introducir los términos para ejecutar la búsqueda.] -> [permite al usuario introducir un nombre y/o experiencia laboral para ejecutar la búsqueda.]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0017</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº5 ([UC-0012] Búsqueda de proyectos por año)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0008</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Description] del hijo nº3 actualizada: [El sistema devuelve (de existir) los recursos solicitados por la peticición, para los cuales el usuario tiene, al menos, permiso de lectura.
+] -> [devuelve (de existir) los recursos solicitados por la peticición, para los cuales el usuario tiene, al menos, permiso de lectura.
+]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0012</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Postcondition] actualizada [PD] -> [El recurso devuelve (de existir) los recursos ]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0010</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº2 (Actor Jefe de Equipo introduce...)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0012</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Precondition] actualizada [PD] -> [El sistema está listo para recibir peticiones de búsqueda.]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0010</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº1 (El sistema permite al usuario ...)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0012</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Postcondition] actualizada [El recurso devuelve (de existir) los recursos ] -> [El recurso devuelto (de existir), está disponible para el usurio (este tiene, al menos, permiso de lectura) asociado.]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0004</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Comments] actualizada [Ninguno] -> [Se consulta con una periodicidad semanal.]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0004</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Comments] actualizada [Periodicidad: semanal.] -> [Frecuencia esperada: semanal.
+]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0017</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Intercambiados hijos nº2 ([UC-0008] Búsqueda de empleados por metadatos) y nº3 ([UC-0012] Búsqueda de proyectos por año)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0010</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Comments] actualizada [Ninguno] -> [Frecuencia esperada: diaria.]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0010</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº3 (El sistema El sistema devuelve...)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0008</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Comments] actualizada [Ninguno] -> [Frecuencia esperada: trimestral.]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0012</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Version] actualizada [3.0 2022/01/25] -> [3.0 2022/01/23]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0008</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Description] del hijo nº3 actualizada: [devuelve (de existir) los recursos solicitados por la peticición, para los cuales el usuario tiene, al menos, permiso de lectura.] -> [El sistema devuelve (de existir) los recursos solicitados por la peticición, para los cuales el usuario tiene, al menos, permiso de lectura.
+]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>UC-0013</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0017</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Intercambiados hijos nº4 ([UC-0010] Búsqueda de documentos de desarrollo por metadatos) y nº5 ([UC-0012] Búsqueda de proyectos por año)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0002</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Comments] actualizada [Ninguno] -> [Esto es un caso de uso genérico; en consecuencia no tiene periodicidad asociada.]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0012</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº1 (El sistema El sistema permite ...)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0003</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Comments] actualizada [Ninguno] -> [Esto es un caso de uso genérico; en consecuencia no tiene periodicidad asociada.]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>UC-0012</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0009</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Comments] actualizada [Ninguno] -> [Frecuencia esparada: ]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0009</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Comments] actualizada [Frecuencia esparada: ] -> [Frecuencia esparada: semanal.]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>IRQ-0003</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>26</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Comments] actualizada [Referencia los documentos asociados las investigaciones llevadas a cabo por el área de I+D de la organización. Las investigaciones se organizan en directorios por años. También incluye una breve descripción pero no aplica a la búsqueda. Se consulta con una periodicidad semanal.] -> [Referencia los documentos asociados las investigaciones llevadas a cabo por el área de I+D de la organización. Las investigaciones se organizan en directorios por años porque su duración nunca supera un año laboral. También incluye una breve descripción pero no aplica a la búsqueda. Se consulta con una periodicidad semanal.]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0013</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Importance] actualizada [PD] -> [vital]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0013</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Stability] actualizada [PD] -> [alta]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0013</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Postcondition] actualizada [PD] -> [El recurso devuelto (de existir), está disponible para el usuario (este tiene, al menos, permiso de lectura) asociado.]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0012</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Comments] actualizada [Ninguno] -> [Frecuencia esperada: semanal.]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0013</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Status] actualizada [PD] -> [pendiente de validación]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0013</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº2 (Actor Administrador introduce ...)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0013</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº3 (El sistema devuelve (de existi...)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0013</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Precondition] actualizada [PD] -> [El sistema está listo para recibir peticiones de búsqueda.]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0010</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Description] del hijo nº3 actualizada: [El sistema devuelve (de existir) los recursos solicitados por la peticición, para los cuales el usuario tiene, al menos, permiso de lectura.
+] -> [devuelve (de existir) los recursos solicitados por la peticición, para los cuales el usuario tiene, al menos, permiso de lectura.
+]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0012</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Importance] actualizada [PD] -> [vital]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0013</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Comments] actualizada [Ninguno] -> [Frecuencia esperada: semanal.]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>IRQ-0001</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>26</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Comments] actualizada [Referencia los documentos asociados a cada proyecto que ejecuta la organización. Los proyectos se organizan en directorios por años. También incluye una breve descripción pero no aplica a la búsqueda. Se consulta con una periodicidad semanal.] -> [Referencia los documentos asociados a cada proyecto que ejecuta la organización. Los proyectos se organizan en directorios por años ya que estos se adjudican por años naturales. También incluye una breve descripción pero no aplica a la búsqueda. Se consulta con una periodicidad semanal.]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0017</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Intercambiados hijos nº5 ([UC-0010] Búsqueda de documentos de desarrollo por metadatos) y nº6 ([UC-0013] Búsqueda de investigaciones por año)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0013</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº1 (El sistema permite al usuario ...)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0012</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Urgency] actualizada [PD] -> [inmediatamente]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0013</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [TriggeringEvent] actualizada [PD] -> [el usuario quiere hacer una consulta al sistema que devuelva una investigación.]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0013</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [TriggeringEvent] actualizada [el usuario quiere hacer una consulta al sistema que devuelva una investigación.] -> [el usuario quiere hacer una consulta al sistema que devuelva una investigación]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0013</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Urgency] actualizada [PD] -> [inmediatamente]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0012</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Stability] actualizada [PD] -> [alta]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0012</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Status] actualizada [PD] -> [pendiente de validación]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>UC-0012</rem:owner><rem:date>
+<rem:year>2022</rem:year>
+<rem:month>1</rem:month>
+<rem:day>25</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº3 (El sistema devuelve (de existi...)]]></rem:description>
+</rem:change>
+</rem:log>
